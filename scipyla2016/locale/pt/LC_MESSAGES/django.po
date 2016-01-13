@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-12 17:44-0200\n"
+"POT-Creation-Date: 2016-01-13 11:45-0200\n"
 "PO-Revision-Date: 2016-01-06 12:07-0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,7 +22,14 @@ msgstr ""
 msgid "Sponsors"
 msgstr "Patrocinadores"
 
-#: templates/_default_sidebar.html:7 templates/sponsorship/list.html:16
+#: templates/_default_sidebar.html:7
+msgid ""
+"SciPyLA 2016 is open for sponsorships. If you are interested in supporting "
+"this event please contact us at: <a href='mailto:2017@scipyla."
+"org'>2016@scipyla.org</a>."
+msgstr ""
+
+#: templates/_default_sidebar.html:8 templates/sponsorship/list.html:16
 msgid "Institutional"
 msgstr "Institucional"
 
