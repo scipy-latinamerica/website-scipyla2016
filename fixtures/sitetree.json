@@ -384,30 +384,6 @@
         }
     }, 
     {
-        "pk": 5, 
-        "model": "sitetree.treeitem", 
-        "fields": {
-            "parent": 3, 
-            "access_restricted": false, 
-            "access_permissions": [], 
-            "description": "", 
-            "insitetree": true, 
-            "hint": "", 
-            "url": "sponsor_apply", 
-            "inbreadcrumbs": true, 
-            "title": "Apply to be a Sponsor", 
-            "tree": 1, 
-            "access_perm_type": 1, 
-            "alias": null, 
-            "sort_order": 18, 
-            "inmenu": true, 
-            "access_loggedin": false, 
-            "hidden": false, 
-            "urlaspattern": true, 
-            "access_guest": false
-        }
-    }, 
-    {
         "pk": 6, 
         "model": "sitetree.treeitem", 
         "fields": {
@@ -591,7 +567,7 @@
             "tree": 2, 
             "access_perm_type": 1, 
             "alias": null, 
-            "sort_order": 5, 
+            "sort_order": 4, 
             "inmenu": true, 
             "access_loggedin": false, 
             "hidden": false, 
@@ -859,30 +835,6 @@
             "inmenu": false, 
             "access_loggedin": false, 
             "hidden": true, 
-            "urlaspattern": true, 
-            "access_guest": false
-        }
-    }, 
-    {
-        "pk": 1015, 
-        "model": "sitetree.treeitem", 
-        "fields": {
-            "parent": 103, 
-            "access_restricted": false, 
-            "access_permissions": [], 
-            "description": "", 
-            "insitetree": true, 
-            "hint": "", 
-            "url": "sponsor_apply", 
-            "inbreadcrumbs": true, 
-            "title": "Seja uma patrocinador", 
-            "tree": 2, 
-            "access_perm_type": 1, 
-            "alias": null, 
-            "sort_order": 18, 
-            "inmenu": true, 
-            "access_loggedin": false, 
-            "hidden": false, 
             "urlaspattern": true, 
             "access_guest": false
         }
@@ -1315,30 +1267,6 @@
             "inmenu": false, 
             "access_loggedin": false, 
             "hidden": true, 
-            "urlaspattern": true, 
-            "access_guest": false
-        }
-    }, 
-    {
-        "pk": 3015, 
-        "model": "sitetree.treeitem", 
-        "fields": {
-            "parent": 303, 
-            "access_restricted": false, 
-            "access_permissions": [], 
-            "description": "", 
-            "insitetree": true, 
-            "hint": "", 
-            "url": "sponsor_apply", 
-            "inbreadcrumbs": true, 
-            "title": "Seja uma patrocinador", 
-            "tree": 3, 
-            "access_perm_type": 1, 
-            "alias": null, 
-            "sort_order": 18, 
-            "inmenu": true, 
-            "access_loggedin": false, 
-            "hidden": false, 
             "urlaspattern": true, 
             "access_guest": false
         }

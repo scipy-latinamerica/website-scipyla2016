@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-12 17:44-0200\n"
+"POT-Creation-Date: 2016-01-13 11:56-0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,19 +22,26 @@ msgstr ""
 msgid "Sponsors"
 msgstr ""
 
-#: templates/_default_sidebar.html:7 templates/sponsorship/list.html:16
+#: templates/_default_sidebar.html:7
+msgid ""
+"SciPyLA 2016 is open for sponsorships. If you are interested in supporting "
+"this event please contact us at: <a href='mailto:2016@scipyla."
+"org'>2016@scipyla.org</a>."
+msgstr ""
+
+#: templates/_default_sidebar.html:8 templates/sponsorship/list.html:16
 msgid "Institutional"
 msgstr ""
 
-#: templates/_footer.html:3
+#: templates/_footer.html:2
 msgid "Privacy Policy"
 msgstr ""
 
-#: templates/_footer.html:3
+#: templates/_footer.html:2
 msgid "contact"
 msgstr ""
 
-#: templates/_footer.html:3
+#: templates/_footer.html:2
 msgid ""
 "<a href='https://github.com/pinax/symposion/'><b>Symposion</b></a>: a Pinax "
 "project sponsored by <a href='http://eldarion.com/'>Eldarion</a> and the <a "
@@ -1021,7 +1028,6 @@ msgid "Proposal Submission"
 msgstr ""
 
 #: templates/participate/presentations.html:33
-#: templates/participate/tutorials.html:130
 msgid ""
 "To submit a proposal, <a href='https://conference.scipy.org/scipyla2016/"
 "account/signup/'>sign up</a> or <a href='https://conference.scipy.org/"
@@ -1146,6 +1152,13 @@ msgid ""
 "target='_blank'>SciPy2014</a>).  We are looking for awesome techniques or "
 "packages, helping new or advanced python programmers develop better or "
 "faster scientific applications."
+msgstr ""
+
+#: templates/participate/tutorials.html:130
+msgid ""
+"To submit a proposal, <a href='/scipyla2016/account/signup/'>sign up</a> or "
+"<a href='/scipyla2016/account/login/'>log in</a> to your account and proceed "
+"to your <a href='/scipyla2016/dashboard/'>account dashboard</a>."
 msgstr ""
 
 #: templates/participate/tutorials.html:132
@@ -1580,9 +1593,8 @@ msgstr ""
 
 #: templates/sponsor_levels_alone.html:69
 msgid ""
-"Please email <a href='mailto:scipy-organizers@scipy.org'>scipy-"
-"organizers@scipy.org</a> with any questions or to reserve your Sponsorship "
-"Package."
+"Please email <a href='mailto:2016@scipyla.org'>2016@scipyla.org</a> with any "
+"questions or to reserve your Sponsorship Package."
 msgstr ""
 
 #: templates/sponsorship.html:13
