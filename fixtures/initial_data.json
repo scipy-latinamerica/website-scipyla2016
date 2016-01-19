@@ -20,7 +20,7 @@
         "model": "sites.site", 
         "fields": {
             "domain": "localhost", 
-            "name": "SciPyLA 2016 [local]"
+            "name": "SciPyLA 2016"
         }
     }, 
     {
