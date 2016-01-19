@@ -1,5 +1,13 @@
 [
     {
+        "pk": 4, 
+        "model": "sites.site", 
+        "fields": {
+            "domain": "conf.scipyla.org", 
+            "name": "SciPyLA 2016"
+        }
+    }, 
+    {
         "pk": 2, 
         "model": "sites.site", 
         "fields": {
