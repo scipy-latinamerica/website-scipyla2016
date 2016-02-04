@@ -616,7 +616,7 @@ msgid ""
 msgstr ""
 "Diversidade em nossa comunidade Python é importante pois sem ela, a "
 "comunidade não faz realmente parte da sociedade, não sendo a visão pythonica "
-"da sociedade, e sim um grupo elitista inconsciente do restro."
+"da sociedade, e sim um grupo elitista inconsciente do resto."
 
 #: templates/about/diversity.html:47
 msgid ""
@@ -746,7 +746,7 @@ msgid ""
 msgstr ""
 "Primeiro de tudo, isto implica que nossa comunidade aceita que gênero não é "
 "necessariamente binário, e todos(as) possuem o direito de serem chamados(as) "
-"de acordo com seus dejesos. Não é apenas pensar que gênero não importa. "
+"de acordo com seus desejos. Não é apenas pensar que gênero não importa. "
 "Importa para várias pessoas por diferentes razões. Uma comunidade diversa "
 "alegra-se com todos pontos de vista."
 
@@ -840,7 +840,7 @@ msgstr ""
 "deficientes a pessoas em cadeira de rodas, todos devem se sentir acolhidos. "
 "Todos usamos tecnologia, mas não percebemos porque ela está profundamente "
 "adaptada em nós: smartphones, chaves, óculos... Uma comunidade diversa "
-"considera acessibilidade, e é engenhosa em ajudar os outros.
+"considera acessibilidade, e é engenhosa em ajudar os outros."
 
 #: templates/about/diversity.html:104
 msgid "Origin"
@@ -864,7 +864,7 @@ msgstr ""
 "Se nós temos vizinhos de todos lugares, devemos encontrá-los em nossa comunidade "
 "Python. Pense sobre as estruturas sociais e as razões de não encontrarmos "
 "imigrantes, por exemplo, em nossa comunidade: pode ser o acesso à informação, "
-"ou pode ser o resuldade de uma discriminação sutil (ou nem um pouco sutil) "
+"ou pode ser o resultado de uma discriminação sutil (ou nem um pouco sutil) "
 "baseada na origem."
 
 #: templates/about/diversity.html:110
@@ -1441,7 +1441,7 @@ msgid ""
 "expert-level user, this is a great opportunity to share your knowledge and "
 "offset some of the costs of your SciPyLA 2016 attendance."
 msgstr ""
-"Caso você seja um grande contribuido de alguma biblioteca científica em Python, "
+"Caso você seja um grande contribuidor de alguma biblioteca científica em Python, "
 "ou um usuário de nível experiente, esta é uma grande oportunidade para "
 "compartilhar seus conhecimentos e compensar alguns dos custos de sua participação "
 "na SciPyLA 2016."
@@ -1547,7 +1547,7 @@ msgstr ""
 "antes do tutorial para segui-lo. Por favor, cite qualquer pacote que não seja "
 "multi-plataforma. Instruções de instalação ou links para documentação de "
 "instalação devem ser fornecidos para pacotes que não são disponibilizados por "
-"easy_install, pip, EPD, Anaconda, etc., o que necessiter bibliotecas de "
+"easy_install, pip, EPD, Anaconda, etc., ou que necessite bibliotecas de "
 "terceiros ou compiladas."
 
 #: templates/participate/tutorials.html:141
