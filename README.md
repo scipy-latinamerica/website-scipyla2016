@@ -92,8 +92,30 @@ Please create issues at https://github.com/scipy-latinamerica/scipyla2016/issues
 
 ## Deploy
 
-You need to use
+1.  Access the server using
 
-~~~
-$ ssh scipyla2016@web427.webfaction.com
-~~~
+    ~~~
+    $ ssh scipyla2016@web427.webfaction.com
+    ~~~
+
+2.  Run the following steps:
+
+    ~~~
+    $ cd scipyla2016/
+    $ source bin/activate
+    $ cd website-scipyla2016/
+    ~~~
+
+    **Load the virtualenv is very important.**
+
+3.  Update the source code:
+
+    ~~~
+    $ git pull origin master
+    ~~~
+
+4.  Run the following step:
+
+    ~~~
+    $ touch wf_wsgi.py
+    ~~~
