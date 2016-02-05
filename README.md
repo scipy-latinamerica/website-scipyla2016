@@ -89,3 +89,11 @@ read https://docs.djangoproject.com/en/1.4/topics/i18n/translation/#how-django-d
 ## Issues
 
 Please create issues at https://github.com/scipy-latinamerica/scipyla2016/issues.
+
+## Deploy
+
+You need to use
+
+~~~
+$ ssh scipyla2016@web427.webfaction.com
+~~~
