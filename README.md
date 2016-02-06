@@ -9,6 +9,11 @@ Website for the SciPyLA Conference 2016.
 
 ## Quickstart
 
+Dependencies you need to install beforehand:
+~~~
+$ sudo apt-get install virtualenv libmysqlclient-dev python-dev
+~~~
+
 ~~~
 $ git clone git@github.com:scipy-latinamerica/website-scipyla2016.git
 $ cd website-scipyla2016
