@@ -1,7 +1,8 @@
 {% extends "site_base.html" %}
 
 {% load i18n %}
-
+{% load thumbnail %}
+{% load sponsorship_tags %}
 {% load boxes_tags %}
 
 {% block head_title %}{% trans "Welcome" %}{% endblock %}
@@ -13,12 +14,22 @@
 
 <h1>{% trans "Friends of SciPyLA 2016" %}</h1>
 
-<p>{% trans "The following groups and enterprises made a commit to help SciPyLA by advertising the event and allowing that their members attend the conference." %}</p>
+<p>{% trans "The following groups and enterprises made a commit to help SciPyLA by organizing and advertising the event, sending their members to the conference and in some case with in-kind donations." %}</p>
 
-<a href="http://anitas.com.br/">
-<img src="/scipyla2016/site_media/static/img/friends/anitas.png"
-     alt="Anitas"
-     style="display: block;margin: 1em auto;" />
-</a>
+{% for level, sponsors in sponsor_levels %}
+    {% if sponsors %}
+        {% if level.name == "Friends" %}
+            {% for s in sponsors %}
+            <span style="display: inline-block; width:250px; height:90px; margin: auto; text-align: center;">
+                <a href="{{ s.external_url }}">
+                    <img src="{% thumbnail s.website_logo '250x90' %}"
+                         alt="{{ s.name }}"
+                         />
+                </a>
+            </span>
+            {% endfor %}
+        {% endif %}
+    {% endif %}
+{% endfor %}
 
 {% endblock %}
