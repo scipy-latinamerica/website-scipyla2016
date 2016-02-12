@@ -42,5 +42,16 @@
             "name": "Media & Community", 
             "order": 3
         }
+    }, 
+    {
+        "pk": 5, 
+        "model": "sponsorship.sponsorlevel", 
+        "fields": {
+            "conference": 1, 
+            "description": "For in-kind donation.", 
+            "cost": 0, 
+            "name": "Friends", 
+            "order": 4
+        }
     }
 ]

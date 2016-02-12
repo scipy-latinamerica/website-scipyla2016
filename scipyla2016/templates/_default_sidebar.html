@@ -15,17 +15,19 @@
         </div>
 
   {% for level, sponsors in sponsor_levels %}
-    {% if sponsors %}
-      <h4 style="margin-top: 3em;">{{ level }}</h4>
-      {% for s in sponsors %}
-        <div style="margin: 10px 0;">
-          <a href="{{ s.external_url }}">
-            <img src="{% thumbnail s.website_logo '250x90' %}"
-                 alt="{{ s.name }}"
-                 style="display: block;margin: 1em auto;" />
-          </a>
-        </div>
-      {% endfor %}
+    {% if level.name != "Friends" %}
+      {% if sponsors %}
+        <h4 style="margin-top: 3em;">{{ level }}</h4>
+        {% for s in sponsors %}
+          <div style="margin: 10px 0;">
+            <a href="{{ s.external_url }}">
+              <img src="{% thumbnail s.website_logo '250x90' %}"
+                   alt="{{ s.name }}"
+                   style="display: block;margin: 1em auto;" />
+            </a>
+          </div>
+        {% endfor %}
+      {% endif %}
     {% endif %}
   {% endfor %}
 </div>
