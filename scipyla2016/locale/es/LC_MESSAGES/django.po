@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: SciPyLA 2016\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-13 11:56-0200\n"
-"PO-Revision-Date: 2016-02-15 01:31-0400\n"
+"PO-Revision-Date: 2016-02-15 19:00-0400\n"
 "Last-Translator: Francisco Palm <francisco.palm@sani.org.ve>\n"
 "Language-Team: SciPyLA 2016 <2016@scipyla.org>\n"
 "MIME-Version: 1.0\n"
@@ -185,6 +185,11 @@ msgid ""
 "not know how to write the proposal, contact our activities committee and we "
 "will help you in this task. We will gladly help you submit a good proposal."
 msgstr ""
+"Estas son las clases tradicionales. Tienen una duración máxima de 30 minutos "
+"con 5 minutos para preguntas. Si crees que tienes un tema, pero no sabes "
+"como escribir la propuesta, contacta con nuestro comité de actividades y te "
+"ayudaremos en esta tarea. Con mucho gusto te ayudaremos a presentar una "
+"buena propuesta."
 
 #: templates/about/about.html:65
 msgid ""
@@ -193,6 +198,12 @@ msgid ""
 "hall. No need to fill all the available time. The registration of this talk "
 "modality will be held during the event until last presentation of the day."
 msgstr ""
+"¿Quieres dar una charla, pero no tienes suficiente material para una? Estas "
+"presentaciones tienen un máximo de 5 minutos en una secuencia de "
+"presentaciones similares en la sala principal. No hay necesidad de llenar "
+"todo el tiempo disponible. El registro de esta modalidad de presentación se "
+"llevará a cabo durante el evento después de la última presentación de la "
+"jornada."
 
 #: templates/about/about.html:68
 msgid "Posters"
@@ -205,6 +216,11 @@ msgid ""
 "when the participants exchange rooms they find their work, read what you "
 "wrote and initiate a discussion about it. Simple like that."
 msgstr ""
+"La sesión de pósters ofrece una presentación más interactiva y dirigida al "
+"público que las presentaciones. La idea es presentar el tema en el cartel y "
+"cuando los participantes cambian de lugar se encuentran con tu trabajo, leen "
+"lo que has escrito e inician una conversación sobre el tema. Tan simple como "
+"eso."
 
 #: templates/about/about.html:73
 msgid "Track Teen"
@@ -217,6 +233,10 @@ msgid ""
 "programming and any area that can contribute to your creative, through an "
 "educational and fun interactive way ."
 msgstr ""
+"El track teen es un viaje que tiene como objetivo introducir a un público "
+"potencial de gran creatividad (como los niños y adolescentes) en el mundo de "
+"la ciencia, la programación y cualquier área que puede contribuir a su "
+"creatividad, de una forma interactiva educativa y divertida."
 
 #: templates/about/about.html:78
 msgid ""
@@ -226,51 +246,67 @@ msgid ""
 "ideas that arise in their minds. And it can become generators of ideas that "
 "can be useful to others."
 msgstr ""
+"Uno de los objetivos de esta conferencia es mostrar los adolescentes que la "
+"ciencia y la programación están hechas por gente como ellos. Ambas están "
+"presentes en el uso cotidiano de cualquier persona y lo único que se "
+"necesita es el deseo de aprender y poner en práctica estas ideas que surgen "
+"en sus mentes. Y pueden convertirse en generadores de ideas que pueden ser "
+"útiles a los demás."
 
 #: templates/about/about.html:82
 msgid "Important Dates"
-msgstr ""
+msgstr "Fechas Importantes"
 
 #: templates/about/about.html:85
 msgid "March 1st: Initial date for submission of talks, tutorials and posters;"
 msgstr ""
+"1 de marzo: fecha inicial para el envío de presentaciones, tutoriales y "
+"carteles (pósters);"
 
 #: templates/about/about.html:86
 msgid "April 8th: Deadline for submission of talks, tutorials and posters;"
 msgstr ""
+"8 de abril: Fecha límite para el envío de presentaciones, tutoriales y "
+"carteles (pósters);"
 
 #: templates/about/about.html:87
 msgid ""
 "April 22nd: Notification of acceptance for talks, tutorials and posters;"
 msgstr ""
+"22 de abril: Notificación de aceptación de presentaciones, tutoriales y "
+"carteles (pósters);"
 
 #: templates/about/about.html:88
 msgid "May 16th-18th: SciPyLA 2016, 2 days of tutorials;"
-msgstr ""
+msgstr "Mayo 16 al 18: SciPy 2016, 2 días de tutoriales;"
 
 #: templates/about/about.html:89
 msgid "May 19th-20th: SciPyLA 2016, 3 days of talks."
-msgstr ""
+msgstr "Mayo 19 al 20: SciPy 2016, 3 días de presentaciones."
 
 #: templates/about/about.html:93
 msgid ""
 "We look forward to a very exciting conference and hope to see you all in "
 "Florianópolis soon!"
 msgstr ""
+"Esperamos una conferencia muy interesante y esperamos verlos a todos pronto "
+"en Florianópolis!"
 
 #: templates/about/about.html:95
 msgid "The SciPyLA2016 Organizers"
-msgstr ""
+msgstr "Los organizadores de SciPy 2016"
 
 #: templates/about/code_of_conduct.html:14
 msgid "Code of Conduct"
-msgstr ""
+msgstr "Código de Conducta"
 
 #: templates/about/code_of_conduct.html:16
 msgid ""
 "SciPyLA is a community conference intended for networking and collaboration "
 "in the scientific Python developer community."
 msgstr ""
+"SciPy es una conferencia comunitaria destinada a la creación de redes y la "
+"colaboración en la comunidad de desarrolladores de Python científico."
 
 #: templates/about/code_of_conduct.html:18
 msgid ""
