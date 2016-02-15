@@ -3,24 +3,24 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: SciPyLA 2016\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-13 11:56-0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2016-02-15 01:31-0400\n"
+"Last-Translator: Francisco Palm <francisco.palm@sani.org.ve>\n"
+"Language-Team: SciPyLA 2016 <2016@scipyla.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: es_VE\n"
 
 #: templates/_default_sidebar.html:5
 msgid "Sponsors"
-msgstr ""
+msgstr "Patrocinantes"
 
 #: templates/_default_sidebar.html:7
 msgid ""
@@ -28,18 +28,21 @@ msgid ""
 "this event please contact us at: <a href='mailto:2016@scipyla."
 "org'>2016@scipyla.org</a>."
 msgstr ""
+"SciPyLA 2016 está abierta a patrocinios. Si estás interesado en apoyar este "
+"evento por favor contáctanos en: <a href='mailto:2016@scipyla."
+"org'>2016@scipyla.org</a>."
 
 #: templates/_default_sidebar.html:8 templates/sponsorship/list.html:16
 msgid "Institutional"
-msgstr ""
+msgstr "Institucional"
 
 #: templates/_footer.html:2
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Privacidad"
 
 #: templates/_footer.html:2
 msgid "contact"
-msgstr ""
+msgstr "contacto"
 
 #: templates/_footer.html:2
 msgid ""
@@ -47,6 +50,9 @@ msgid ""
 "project sponsored by <a href='http://eldarion.com/'>Eldarion</a> and the <a "
 "href='http://www.python.org/psf/'>Python Software Foundation</a>."
 msgstr ""
+"<a href='https://github.com/pinax/symposion/'><b>Symposion</b></a>: un "
+"proyecto de Pinax patrocinado por <a href='http://eldarion.com/'>Eldarion</"
+"a> y la <a href='http://www.python.org/psf/'>Python Software Foundation</a>."
 
 #: templates/about/about.html:7 templates/about/code_of_conduct.html:7
 #: templates/about/diversity.html:7 templates/about/organizers.html:7
@@ -59,31 +65,31 @@ msgstr ""
 #: templates/venue/restaurants.html:7 templates/venue/venue.html:7
 #: templates/video_highlights.html:7
 msgid "Welcome"
-msgstr ""
+msgstr "Bienvenidos"
 
 #: templates/about/about.html:14
 msgid "Submit a Proposal!"
-msgstr ""
+msgstr "¡Envía una propuesta!"
 
 #: templates/about/about.html:16
 msgid "To submit a proposal"
-msgstr ""
+msgstr "Para enviar una propuesta"
 
 #: templates/about/about.html:17
 msgid "sign up"
-msgstr ""
+msgstr "regístrate"
 
 #: templates/about/about.html:18
 msgid "log in"
-msgstr ""
+msgstr "iniciar sesión"
 
 #: templates/about/about.html:19
 msgid "to your account and proceed to your"
-msgstr ""
+msgstr "a su cuenta y proceder a su"
 
 #: templates/about/about.html:21
 msgid "account dashboard"
-msgstr ""
+msgstr "tablero de la cuenta"
 
 #: templates/about/about.html:26
 msgid "Click:"
@@ -91,19 +97,19 @@ msgstr ""
 
 #: templates/about/about.html:28
 msgid "submit proposal"
-msgstr ""
+msgstr "enviar propuesta"
 
 #: templates/about/about.html:29
 msgid "talks and posters"
-msgstr ""
+msgstr "presentaciones y pósters"
 
 #: templates/about/about.html:30
 msgid "create new... "
-msgstr ""
+msgstr "crear nuevo..."
 
 #: templates/about/about.html:35
 msgid "SciPyLA 2016 Conference Announcement"
-msgstr ""
+msgstr "SciPyLA 2016 Anuncio de Conferencia"
 
 #: templates/about/about.html:37
 msgid ""
@@ -114,20 +120,28 @@ msgid ""
 "software for mathematics, science, and engineering mainly developed with "
 "Python."
 msgstr ""
+"La Conferencia SciPy América Latina 2016 , es la cuarta conferencia anual de "
+"Computación Científica con Python en América Latina, se llevará a cabo del "
+"16 al 20 de mayo de 2016, en Florianópolis, Brasil. SciPy América Latina es "
+"una comunidad regional dedicada al avance de la computación científica a "
+"través de software de código abierto para las matemáticas, la ciencia y la "
+"ingeniería desarrollados principalmente con Python."
 
 #: templates/about/about.html:39
 msgid ""
 "During the conference SciPyLA is proud to host the following event and talk "
 "types:"
 msgstr ""
+"Durante la conferencia SciPy se enorgullece de acoger los siguientes tipos "
+"de eventos y entrevistas:"
 
 #: templates/about/about.html:42 templates/about/about.html.py:53
 msgid "Tutorials"
-msgstr ""
+msgstr "Tutoriales"
 
 #: templates/about/about.html:43 templates/about/about.html.py:58
 msgid "Talks"
-msgstr ""
+msgstr "Presentaciones"
 
 #: templates/about/about.html:44 templates/about/about.html.py:63
 msgid "Lighting Talks"
@@ -135,7 +149,7 @@ msgstr ""
 
 #: templates/about/about.html:45
 msgid "Poster Presentations"
-msgstr ""
+msgstr "Presentaciones de posters"
 
 #: templates/about/about.html:46
 msgid "Track teen"
@@ -146,6 +160,8 @@ msgid ""
 "The full program will consist of two days of tutorials, followed by three "
 "days of presentations."
 msgstr ""
+"El programa completo consistirá en dos días de tutoriales, seguido de tres "
+"días de presentaciones."
 
 #: templates/about/about.html:55
 msgid ""
@@ -155,6 +171,12 @@ msgid ""
 "to have tutorials that can encourage scientific computing with Python, "
 "improve the community and shape the future."
 msgstr ""
+"Múltiples tutoriales interactivos de medio día (3h) serán impartidas por "
+"expertos de la comunidad. Los tutoriales ofrecen una cobertura conceptual y "
+"práctica de herramientas para los asistentes conocimiento básico, intermedio "
+"y avanzado. Nuestro objetivo es tener tutoriales que pueden estimular la "
+"computación científica con Python, mejorar la comunidad y dar forma al "
+"futuro."
 
 #: templates/about/about.html:60
 msgid ""
@@ -973,7 +995,8 @@ msgstr ""
 msgid "Venezuela:"
 msgstr ""
 
-#: templates/participate/bofs.html:7 templates/participate/financial_aid.html:7
+#: templates/participate/bofs.html:7
+#: templates/participate/financial_aid.html:7
 #: templates/participate/wssspe.html:7
 msgid "BoFs Call"
 msgstr ""
@@ -1348,19 +1371,19 @@ msgstr ""
 
 #: templates/reviews/_review_table.html:11
 msgid "+1"
-msgstr ""
+msgstr "+1"
 
 #: templates/reviews/_review_table.html:12
 msgid "+0"
-msgstr ""
+msgstr "+0"
 
 #: templates/reviews/_review_table.html:13
 msgid "-0"
-msgstr ""
+msgstr "-0"
 
 #: templates/reviews/_review_table.html:14
 msgid "-1"
-msgstr ""
+msgstr "-1"
 
 #: templates/reviews/_review_table.html:15
 msgid "Your Rating"
