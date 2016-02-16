@@ -113,7 +113,13 @@ Please create issues at https://github.com/scipy-latinamerica/scipyla2016/issues
     $ git pull origin master
     ~~~
 
-4.  Run the following step:
+4.  Update the database:
+
+    ~~~
+    $ python manage.py loaddata fixtures/*
+    ~~~
+
+5.  Run the following step:
 
     ~~~
     $ touch wf_wsgi.py
