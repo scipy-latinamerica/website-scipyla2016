@@ -30,5 +30,21 @@
             "annotation": "", 
             "external_url": "https://www.facebook.com/PyLadies-Floripa-763762813730310/"
         }
+    },
+    {
+        "pk": 3, 
+        "model": "sponsorship.sponsor", 
+        "fields": {
+            "added": "2016-02-05T07:49:33", 
+            "name": "GitHub", 
+            "level": 3, 
+            "sponsor_logo": 1, 
+            "applicant": 1, 
+            "contact_email": "bdemott@github.com", 
+            "active": true, 
+            "contact_name": "Brian DeMott", 
+            "annotation": "", 
+            "external_url": "http://github.com/"
+        }
     }
 ]
