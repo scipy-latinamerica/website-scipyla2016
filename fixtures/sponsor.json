@@ -30,7 +30,7 @@
             "annotation": "", 
             "external_url": "https://www.facebook.com/PyLadies-Floripa-763762813730310/"
         }
-    },
+    }, 
     {
         "pk": 3, 
         "model": "sponsorship.sponsor", 
@@ -38,7 +38,7 @@
             "added": "2016-02-05T07:49:33", 
             "name": "GitHub", 
             "level": 3, 
-            "sponsor_logo": 1, 
+            "sponsor_logo": 3, 
             "applicant": 1, 
             "contact_email": "bdemott@github.com", 
             "active": true, 
