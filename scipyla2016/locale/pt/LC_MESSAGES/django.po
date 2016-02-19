@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-13 11:56-0200\n"
+"POT-Creation-Date: 2016-02-19 00:13-0200\n"
 "PO-Revision-Date: 2016-01-06 12:07-0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,9 +27,9 @@ msgid ""
 "SciPyLA 2016 is open for sponsorships. If you are interested in supporting "
 "this event please contact us at: <a href='mailto:2016@scipyla."
 "org'>2016@scipyla.org</a>."
-msgstr "SciPyLA 2016 aceita patrocínios. Se você deseja apoiar este evento, "
-"por favor contate-nos em: <a href='mailto:2016@scipyla."
-"org'>2016@scipyla.org</a>."
+msgstr ""
+"SciPyLA 2016 aceita patrocínios. Se você deseja apoiar este evento, por "
+"favor contate-nos em: <a href='mailto:2016@scipyla.org'>2016@scipyla.org</a>."
 
 #: templates/_default_sidebar.html:8 templates/sponsorship/list.html:16
 msgid "Institutional"
@@ -53,18 +53,401 @@ msgstr ""
 "projeto Pinax patrocinado por <a href='http://eldarion.com/'>Eldarion</a> e "
 "a <a href='http://www.python.org/psf/'>Python Software Foundation</a>."
 
-#: templates/about/about.html:7 templates/about/code_of_conduct.html:7
-#: templates/about/diversity.html:7 templates/about/organizers.html:7
 #: templates/homepage.html:7 templates/keynotes.html:7
-#: templates/participate/ambassadors.html:7
-#: templates/participate/plotting_contest.html:7
 #: templates/privacy_policy.html:7 templates/sponsor_levels.html:7
-#: templates/sponsorship.html:7 templates/venue/directions.html:7
-#: templates/venue/floorplans.html:7 templates/venue/lodging.html:7
-#: templates/venue/restaurants.html:7 templates/venue/venue.html:7
-#: templates/video_highlights.html:7
+#: templates/sponsorship.html:7 templates/video_highlights.html:7
+#: templates/about/about.html:7 templates/about/code_of_conduct.html:7
+#: templates/about/diversity.html:7 templates/about/friends.html:8
+#: templates/about/organizers.html:7 templates/participate/ambassadors.html:7
+#: templates/participate/plotting_contest.html:7
+#: templates/venue/directions.html:7 templates/venue/floorplans.html:7
+#: templates/venue/lodging.html:7 templates/venue/restaurants.html:7
+#: templates/venue/venue.html:7
 msgid "Welcome"
 msgstr "Bem-vindo"
+
+#: templates/homepage.html:15
+msgid "Attend"
+msgstr "Comparecer"
+
+#: templates/homepage.html:17
+msgid ""
+"The annual SciPyLA Conference allows participants from academic, commercial, "
+"and governmental organizations to showcase their latest Scientific Python "
+"projects, learn from skilled users and developers, and collaborate on code "
+"development."
+msgstr ""
+"A Conferência anual SciPyLA é para participantes da acadêmia, organizações "
+"comerciais e governamentais mostrarem seus mais recentes projetos "
+"científicos em Python, aprender com os desenvolvedores mais experientes, e "
+"colaborar no desenvolvimento de código."
+
+#: templates/homepage.html:18
+msgid ""
+"We look forward to a very exciting conference and hope to see you at the "
+"2016 conference."
+msgstr ""
+"Estamos ansiosos para uma conferência muito emocionante e espero vê-los na "
+"conferência em 2016."
+
+#: templates/homepage.html:22
+msgid "Be Inspired"
+msgstr "Inspire-se"
+
+#: templates/homepage.html:23
+msgid "Check the review from the previous editions:"
+msgstr "Verifique a revisão das edições anteriores:"
+
+#: templates/homepage.html:57
+msgid "Follow"
+msgstr "Seguir"
+
+#: templates/privacy_policy.html:13
+msgid "Information We Collect and How It's Used"
+msgstr "Informações que coletamos e como elas serão é usadas"
+
+#: templates/privacy_policy.html:19
+msgid "Credit Card Information"
+msgstr "Informação do cartão de crédito"
+
+#: templates/privacy_policy.html:24
+msgid "Cookies"
+msgstr "Cookies"
+
+#: templates/privacy_policy.html:37
+msgid "Aggregate Information"
+msgstr "Informações Agregadas"
+
+#: templates/privacy_policy.html:43
+msgid "Email addresses"
+msgstr "Endereço de e-mail"
+
+#: templates/privacy_policy.html:51
+msgid "Disclosure of Information Policy"
+msgstr "Política de Divulgação de Informações"
+
+#: templates/site_base.html:37
+msgid "Log in"
+msgstr "Acessar"
+
+#: templates/site_base.html:40
+msgid "Sign up"
+msgstr "Cadastrar-se"
+
+#: templates/site_base.html:44
+msgid "Dashboard"
+msgstr "Mural"
+
+#: templates/site_base.html:47
+msgid "Settings"
+msgstr "Configurações"
+
+#: templates/site_base.html:51
+msgid "Admin"
+msgstr "Administrador"
+
+#: templates/site_base.html:55
+msgid "Log out"
+msgstr "Sair"
+
+#: templates/site_base.html:64
+msgid "Scientific Computing with Python"
+msgstr "Computação Científica com Python"
+
+#: templates/site_base.html:64
+msgid "Florianópolis, Santa Catarina, Brazil &#8226; May 16-20"
+msgstr "Florianópolis, Santa Catarina, Brazil &#8226; 16-20 de Maio"
+
+#: templates/site_base.html:64
+msgid "Registration will open soon"
+msgstr "Inscrições irão abrir em breve"
+
+#: templates/sponsor_levels.html:13
+msgid "SciPyLA 2016 Sponsorship Levels"
+msgstr "Níveis de Patrocínio SciPyLA 2016"
+
+#: templates/sponsor_levels_alone.html:3
+msgid "General Sponsorship Packages Available:"
+msgstr "Pacotes de Patrocínio disponíveis:"
+
+#: templates/sponsor_levels_alone.html:6
+msgid "Gold"
+msgstr "Ouro"
+
+#: templates/sponsor_levels_alone.html:6
+msgid "(two available)"
+msgstr "(dois disponíveis)"
+
+#: templates/sponsor_levels_alone.html:7
+msgid "US$3,000"
+msgstr "US$3,000"
+
+#: templates/sponsor_levels_alone.html:10
+#: templates/sponsor_levels_alone.html:25
+#: templates/sponsor_levels_alone.html:37
+#: templates/sponsor_levels_alone.html:50
+msgid "Benefits:"
+msgstr "Benefícios:"
+
+#: templates/sponsor_levels_alone.html:12
+msgid "Gold Sponsor link with logo on SciPyLA 2016 website"
+msgstr "Link com logo do patrocinador Ouro no website da SciPyLA 2016 "
+
+#: templates/sponsor_levels_alone.html:13
+msgid "90 cm x 180 cm banner (sponsor provided) in main session auditorium"
+msgstr ""
+"Cartaz de 90 cm x 180 cm (fornecido pelo patrocinador) no auditório "
+"principal da sessão"
+
+#: templates/sponsor_levels_alone.html:14
+msgid ""
+"logo listed as Gold Sponsor on 90 cm x 180 cm Sponsor Banner at main entrance"
+msgstr ""
+"logo listado como patrocinadora Ouro no cartaz dos Patrocinador de 90 cm x "
+"180 cm na entrada principal"
+
+#: templates/sponsor_levels_alone.html:15
+msgid "Promotion of jobs to attendee list"
+msgstr "Promover empregos na lista de participantes"
+
+#: templates/sponsor_levels_alone.html:16
+msgid ""
+"Opportunity to host two pre-event workshop (one on Monday and another on "
+"Tuesday)"
+msgstr ""
+"Oportunidade de sediar duas oficinas no pré-evento (uma na segunda-feira e "
+"outro na terça-feira)"
+
+#: templates/sponsor_levels_alone.html:17
+msgid "1/2 page advertisement in program"
+msgstr "1/2 anúncio de página no programa"
+
+#: templates/sponsor_levels_alone.html:21
+msgid "Silver"
+msgstr "Prata"
+
+#: templates/sponsor_levels_alone.html:21
+msgid "(eight available)"
+msgstr "(oito disponíveis)"
+
+#: templates/sponsor_levels_alone.html:22
+msgid "US$2,000"
+msgstr "US$2,000"
+
+#: templates/sponsor_levels_alone.html:27
+msgid "Silver Sponsor link with logo on SciPyLA 2016 website"
+msgstr "Link com logo do patrocinador Prata no website da SciPyLA 2016 "
+
+#: templates/sponsor_levels_alone.html:28
+msgid ""
+"logo listed as Silver Sponsor on 90 cm x 180 cm Sponsor Banner at main "
+"entrance"
+msgstr ""
+"logo listado como patrocinadora Prata no cartaz dos Patrocinador de 90 cm x "
+"180 cm na entrada principal"
+
+#: templates/sponsor_levels_alone.html:29
+msgid "1/4 page advertisement in program"
+msgstr " 1/4 de página para anúncio no programa"
+
+#: templates/sponsor_levels_alone.html:33
+msgid "Bronze"
+msgstr "Bronze"
+
+#: templates/sponsor_levels_alone.html:34
+msgid "US$1,000"
+msgstr "US$1,000"
+
+#: templates/sponsor_levels_alone.html:39
+msgid "Bronze Sponsor link with logo on SciPyLA 2016 website"
+msgstr "Link com logo do patrocinador Bronze no website da SciPyLA 2016 "
+
+#: templates/sponsor_levels_alone.html:40
+msgid ""
+"Name listed as Bronze Sponsor on 90 cm x 180 cm Sponsor Banner at main "
+"entrance"
+msgstr ""
+"logo listado como patrocinadora Bronze no cartaz dos Patrocinador de 90 cm x "
+"180 cm na entrada principal"
+
+#: templates/sponsor_levels_alone.html:44
+msgid "Friend"
+msgstr "Amigo"
+
+#: templates/sponsor_levels_alone.html:45
+msgid "in-kind resources"
+msgstr "recursos em espécie"
+
+#: templates/sponsor_levels_alone.html:48
+msgid ""
+"This is a special categorie for companies that help SciPyLA by supporting "
+"their employers to attented SciPyLA."
+msgstr ""
+"Esta é uma categoria especial para empresas que ajudam a SciPyLA apoiando "
+"seus funcionários a atender a SciPyLA."
+
+#: templates/sponsor_levels_alone.html:52
+msgid "Friend Sponsor link with logo on SciPyLA 2016 Friend web page"
+msgstr "Link com logo do Amigo Patrocinador no website da SciPyLA 2016"
+
+#: templates/sponsor_levels_alone.html:56
+msgid "Media and Community Sponsors"
+msgstr "Mídia e patrocinadores da cominidade"
+
+#: templates/sponsor_levels_alone.html:57
+msgid "co-promotion"
+msgstr "co-promoção"
+
+#: templates/sponsor_levels_alone.html:60
+msgid "Promotion opportunities:"
+msgstr "Oportunidades de promoção:"
+
+#: templates/sponsor_levels_alone.html:62
+msgid "logo on website"
+msgstr "logo no website"
+
+#: templates/sponsor_levels_alone.html:63
+msgid "email to conference list"
+msgstr "enviar e-mail para a lista da conferência"
+
+#: templates/sponsor_levels_alone.html:64
+msgid "social media promotion"
+msgstr "promoção em mídia social"
+
+#: templates/sponsor_levels_alone.html:65
+msgid "mention in newsletter"
+msgstr "menção no boletim informativo"
+
+#: templates/sponsor_levels_alone.html:66
+msgid "..."
+msgstr "..."
+
+#: templates/sponsor_levels_alone.html:69
+msgid ""
+"Please email <a href='mailto:2016@scipyla.org'>2016@scipyla.org</a> with any "
+"questions or to reserve your Sponsorship Package."
+msgstr ""
+"Favor enviar e-mail para <a href='mailto:2016@scipyla.org'>2016@scipyla.org</"
+"a> com qualquer pergunta ou para reservar o seu pacote de patrocínio."
+
+#: templates/sponsorship.html:13
+msgid "SciPyLA 2016 Sponsorship"
+msgstr "Patrocínio SciPyLA 2016"
+
+#: templates/sponsorship.html:15
+msgid ""
+"As a community, SciPy Latin America advances scientific and analytic "
+"computing through the development and promotion of open source Python "
+"software; Python usage continues to grow significantly in scientific and "
+"analytic computing thanks to the efforts of this community."
+msgstr ""
+"Como uma comunidade, a SciPyLA busca avançar a computação científica e "
+"analítica através do desenvolvimento e promoção de software de código aberto "
+"em Python; O uso de Python em computação científica continua a crescer "
+"significativamente graças aos esforços desta comunidade."
+
+#: templates/sponsorship.html:18
+msgid ""
+"The annual SciPyLA Conference brings together academic and industry users to "
+"present their latest work, learn from skilled users and developers, and "
+"collaborate on advancing the ecosystem."
+msgstr ""
+"A Conferência anual SciPyLA reúne acadêmicos e membros da indústria para "
+"apresentarem seus mais recentes trabalhos, aprender com desenvolvedores mais "
+"experientes e, colaborar no avanço do ecossistema científico em Python."
+
+#: templates/sponsorship.html:20
+msgid "2-days of Tutorials"
+msgstr "2 dias de Tutoriais"
+
+#: templates/sponsorship.html:22
+msgid ""
+"We provide two days of expert-led tutorials at the start of the conference.  "
+"These tutorials are very popular, with an introductory track for attendees "
+"new to Python, and intermediate and advanced tracks for experienced users."
+msgstr ""
+"Nós fornecemos dois dias de tutoriais liderada pelos especializadas no "
+"início da conferência. Estes tutoriais são muito populares com uma trilha "
+"introdutória para participantes novos ao Python, e trilhas intermediárias e "
+"avançadas para usuários experientes."
+
+#: templates/sponsorship.html:24
+msgid "3-days of Talks, Poster Sessions"
+msgstr "3 dias de palestras, Sessões de pôsteres"
+
+#: templates/sponsorship.html:26
+msgid ""
+"Authors share their juried presentations and poster papers covering the "
+"latest developments in the use of Python in science during the three main "
+"days of the conference. Presentations, posters, lightning talks provide a "
+"wide variety of opportunities for attendees to participate and learn."
+msgstr ""
+"Autores compartilham suas apresentações e pôsteres abrangendo os mais "
+"recentes desenvolvimentos no uso de Python na ciência durante os três dias "
+"principais da conferência. Apresentações, cartazes, palestras relâmpago "
+"fornecem uma ampla variedade de oportunidades para os participantes a "
+"participar e aprender."
+
+#: templates/sponsorship.html:28
+msgid "Why Sponsor?"
+msgstr "Por que patrocinar?"
+
+#: templates/sponsorship.html:30
+msgid "Contribute to the growth of the community and code base:"
+msgstr "Contribuir para o crescimento da comunidade e base de código:"
+
+#: templates/sponsorship.html:32
+msgid ""
+"Your sponsorship helps us build a financial foundation for the conference "
+"and the community, providing more opportunities for the community to build "
+"out the Python scientific computing tools and packages."
+msgstr ""
+"Seu patrocínio nos ajuda a construir uma base financeira para a conferência "
+"e para a comunidade, proporcionando mais oportunidades para a comunidade "
+"para construir as ferramentas de computação científica em Python."
+
+#: templates/sponsorship.html:35
+msgid "Build awareness, recruit, and make contacts:"
+msgstr "Conscientizar, recrutar e fazer contatos:"
+
+#: templates/sponsorship.html:37
+#, python-format
+msgid ""
+"SciPyLA brings together some of the best minds in scientific and analytic "
+"computing, 25%% of them students; you’ll be hard-pressed to find this kind "
+"of audience anywhere else."
+msgstr ""
+"SciPyLA reúne algumas das melhores mentes em computação científica e "
+"analítica, 25%% são estudantes; será difícil encontrar este tipo de público "
+"em qualquer outro lugar."
+
+#: templates/sponsorship.html:40
+msgid "Help fund attendance:"
+msgstr "Ajude financiar atendentes:"
+
+#: templates/sponsorship.html:43
+msgid ""
+"SciPyLA offers scholarships for students and researchers who contribute to "
+"the community."
+msgstr ""
+"SciPyLA oferece bolsas para estudantes e pesquisadores que contribuem para a "
+"comunidade."
+
+#: templates/sponsorship.html:45
+msgid "Sponsorships also help us to keep this meeting very affordable."
+msgstr "Patrocínios também nos ajudam a manter a conferência acessível."
+
+#: templates/sponsorship.html:49
+msgid "2015 Sponsor Participation"
+msgstr "Participação Patrocinador 2015"
+
+#: templates/sponsorship.html:51
+msgid ""
+"SciPyLA 2015 was sponsored by Universidade Gastón Dachary, Machinalis, "
+"Python Software Foundation, GitHub, Enthought."
+msgstr ""
+"SciPyLA 2015 foi patrocinada pela Universidade Gastón Dachary, Machinalis, "
+"Python Software Foundation, GitHub, Enthought."
 
 #: templates/about/about.html:14
 msgid "Submit a Proposal!"
@@ -283,8 +666,8 @@ msgstr ""
 "Estamos ansiosos para uma conferência emocionante e esperamos ver todos "
 "vocês em Florianópolis em breve!"
 
-#: templates/about/about.html:95
 # ToDo: Único local em que SciPyLA2016 está junto
+#: templates/about/about.html:95
 msgid "The SciPyLA2016 Organizers"
 msgstr "Os organizadores SciPyLA2016"
 
@@ -538,8 +921,8 @@ msgid ""
 "The diversity guideline was extracted from PEP about diversity in pythonist "
 "communities, presented in PyConES 2015, and showed bellow:"
 msgstr ""
-"A diretriz de diversidade foi extraída da PEP sobre diversidade em comunidades "
-"pythonistas, apresentada na PyConES 2015, e mostrada abaixo:"
+"A diretriz de diversidade foi extraída da PEP sobre diversidade em "
+"comunidades pythonistas, apresentada na PyConES 2015, e mostrada abaixo:"
 
 #: templates/about/diversity.html:29
 msgid "Introduction"
@@ -550,8 +933,8 @@ msgid ""
 "This document gives conventions for Python (no matter if it's Python2 or "
 "Python3) communities."
 msgstr ""
-"Este documento define convenções para comunidades de Python (não importa "
-"se é Python2 ou Python3)."
+"Este documento define convenções para comunidades de Python (não importa se "
+"é Python2 ou Python3)."
 
 #: templates/about/diversity.html:33
 msgid ""
@@ -564,8 +947,8 @@ msgstr ""
 "Essas convenções podem e devem evoluir com a comunidade. Às vezes, essas "
 "convenções podem ser muito genéricas e não se encaixarem na quintessência de "
 "sua comunidade. Nesses casos, você deve adaptar as convenções. A única "
-"restrição, quando estiver divergindo da carta, é que mantenha seu espírito "
-"e objetivo."
+"restrição, quando estiver divergindo da carta, é que mantenha seu espírito e "
+"objetivo."
 
 #: templates/about/diversity.html:35
 msgid ""
@@ -573,8 +956,8 @@ msgid ""
 "diversity in your community. It's not meant to blame, but to inspire."
 msgstr ""
 "O objetivo deste documento é fornecer uma maneira de considerar e medir "
-"diversidade em sua comunidade. Este documento não possui o objetivo de culpar, "
-"mas sim de inspirar."
+"diversidade em sua comunidade. Este documento não possui o objetivo de "
+"culpar, mas sim de inspirar."
 
 #: templates/about/diversity.html:37
 msgid "Acknowledgement"
@@ -603,10 +986,10 @@ msgid ""
 "PEP 20 says, \"Diversity counts\". Well, is more like \"Readability counts"
 "\", but you get the point."
 msgstr ""
-"Uma das mais importantes visões é de que a diversidade importa. As diretrizes "
-"presentes aqui pretendem melhorar a diversidade em sua comunidade. Como a "
-"PEP 20 diz, \"Diversidade conta\". Bom, na verdade é \"Legibilidade conta"
-"\", mas você entendeu."
+"Uma das mais importantes visões é de que a diversidade importa. As "
+"diretrizes presentes aqui pretendem melhorar a diversidade em sua "
+"comunidade. Como a PEP 20 diz, \"Diversidade conta\". Bom, na verdade é "
+"\"Legibilidade conta\", mas você entendeu."
 
 #: templates/about/diversity.html:45
 msgid ""
@@ -637,8 +1020,8 @@ msgid ""
 "don't hesitate to ask!"
 msgstr ""
 "Porém mais importante que isso: ninguém espera que sejamos perfeitos; às "
-"vezes simplesmente não sabemos. Quando houver dúvida, precisamos lembrar a "
-"a parte de reconsideração dessas diretivas e usar nosso melhor julgamento. "
+"vezes simplesmente não sabemos. Quando houver dúvida, precisamos lembrar a a "
+"parte de reconsideração dessas diretivas e usar nosso melhor julgamento. "
 "Olhe para outras comunidades, observe como elas tratam cada questão e decida "
 "o que parece melhor ou possui uma abordagem mais clara. E não hesite em "
 "perguntar!"
@@ -650,7 +1033,8 @@ msgstr "Em especial: tenha a mente aberta e seja acolhedor."
 #: templates/about/diversity.html:53
 msgid ""
 "Some other good reasons to improve diversity is because diverse communities:"
-msgstr "Outras boas razões para melhorar a diversidade é porque comunidades diversas:"
+msgstr ""
+"Outras boas razões para melhorar a diversidade é porque comunidades diversas:"
 
 #: templates/about/diversity.html:56
 msgid "build better products"
@@ -693,10 +1077,10 @@ msgid ""
 "helping us."
 msgstr ""
 "Está, não importa o quão doloroso isto seja para nós. Grande parte de nossas "
-"proezas começam com um privilégio. Se pensarmos que conseguimos o que merecemos "
-"por causa de trabalho duro, estamos apenas evitando olhar e aceitar todo "
-"privilégio que nos ajudou no passado e todo privilégio que está nos ajudando "
-"agora."
+"proezas começam com um privilégio. Se pensarmos que conseguimos o que "
+"merecemos por causa de trabalho duro, estamos apenas evitando olhar e "
+"aceitar todo privilégio que nos ajudou no passado e todo privilégio que está "
+"nos ajudando agora."
 
 #: templates/about/diversity.html:70
 msgid ""
@@ -733,8 +1117,8 @@ msgid ""
 "For a community to be diverse, we should find different genders. All the "
 "genders."
 msgstr ""
-"Para uma comunidade ser diversa, devemos encontrar gêneros diferentes. "
-"Todos os gêneros."
+"Para uma comunidade ser diversa, devemos encontrar gêneros diferentes. Todos "
+"os gêneros."
 
 #: templates/about/diversity.html:80
 msgid ""
@@ -758,8 +1142,8 @@ msgid ""
 "hierarchy."
 msgstr ""
 "Segundo, representatividade. Uma comunidade diversa é feliz com, e espera "
-"diversidades nas altas posições. Decisões devem ser tomadas representando "
-"o grupo, e apenas conseguimos isso, tendo representaçào em toda hierarquia."
+"diversidades nas altas posições. Decisões devem ser tomadas representando o "
+"grupo, e apenas conseguimos isso, tendo representaçào em toda hierarquia."
 
 #: templates/about/diversity.html:84
 msgid "Sexual Orientation"
@@ -791,8 +1175,9 @@ msgstr "Idade"
 
 #: templates/about/diversity.html:92
 msgid "For a community to be diverse, we should find people of different ages."
-msgstr "Para uma comunidade ser diversa, precisamos encontrar pessoas de "
-"diferentes idades."
+msgstr ""
+"Para uma comunidade ser diversa, precisamos encontrar pessoas de diferentes "
+"idades."
 
 #: templates/about/diversity.html:94
 msgid ""
@@ -802,8 +1187,8 @@ msgid ""
 "learning, and we can provide help and resources for them."
 msgstr ""
 "Todas idades, de crianças até velhos, a mensagem deve ser: esta tecnologia "
-"nova é para todos. Mesmo se for pensada para pessoas jovens, podemos torná-la "
-"mais acessível para todos. Acreditamos que qualquer um pode se manter "
+"nova é para todos. Mesmo se for pensada para pessoas jovens, podemos torná-"
+"la mais acessível para todos. Acreditamos que qualquer um pode se manter "
 "aprendendo, e podemos fornecer ajuda e recursos para todos."
 
 #: templates/about/diversity.html:96
@@ -813,8 +1198,8 @@ msgid ""
 "offering childcare when possible."
 msgstr ""
 "Uma comunidade diversa também tem em mente que pessoas crescem e às vezes "
-"possuem filhos. Podemos facilitar que elas continuem sendo parte da comunidade, "
-"oferencendo cuidado de crianças, quando possível."
+"possuem filhos. Podemos facilitar que elas continuem sendo parte da "
+"comunidade, oferencendo cuidado de crianças, quando possível."
 
 #: templates/about/diversity.html:98
 msgid "Ability"
@@ -850,8 +1235,8 @@ msgstr "Origem"
 msgid ""
 "For a community to be diverse, we should find people from different origins."
 msgstr ""
-"Para uma comunidade ser diversa, precisamos encontrar pessoas de "
-"diferentes origens."
+"Para uma comunidade ser diversa, precisamos encontrar pessoas de diferentes "
+"origens."
 
 #: templates/about/diversity.html:108
 msgid ""
@@ -861,11 +1246,11 @@ msgid ""
 "information, or it can be the result of subtle (or not subtle at all) "
 "discrimination based on origin."
 msgstr ""
-"Se nós temos vizinhos de todos lugares, devemos encontrá-los em nossa comunidade "
-"Python. Pense sobre as estruturas sociais e as razões de não encontrarmos "
-"imigrantes, por exemplo, em nossa comunidade: pode ser o acesso à informação, "
-"ou pode ser o resultado de uma discriminação sutil (ou nem um pouco sutil) "
-"baseada na origem."
+"Se nós temos vizinhos de todos lugares, devemos encontrá-los em nossa "
+"comunidade Python. Pense sobre as estruturas sociais e as razões de não "
+"encontrarmos imigrantes, por exemplo, em nossa comunidade: pode ser o acesso "
+"à informação, ou pode ser o resultado de uma discriminação sutil (ou nem um "
+"pouco sutil) baseada na origem."
 
 #: templates/about/diversity.html:110
 msgid "Economic status"
@@ -889,10 +1274,10 @@ msgid ""
 "welcoming and that the group makes the effort to reach people outside the "
 "close circles."
 msgstr ""
-"A mera existência de status social é uma evidência de que algo está "
-"errado. Esta é uma das maneiras mais poderosas de se manter o status quo "
-"através de nepotismo ou simples sistemas de recomendação. Um sintoma de uma "
-"ótima comunidade é quando não conhecemos todo mundo, e vemos pessoas novas "
+"A mera existência de status social é uma evidência de que algo está errado. "
+"Esta é uma das maneiras mais poderosas de se manter o status quo através de "
+"nepotismo ou simples sistemas de recomendação. Um sintoma de uma ótima "
+"comunidade é quando não conhecemos todo mundo, e vemos pessoas novas "
 "entrando no grupo mesmo sem conhecer ninguém. Isso significa que o grupo é "
 "aberto e acolhedor e que o grupo se esforça para alcançar pessoas fora de "
 "círculos fechados."
@@ -903,8 +1288,9 @@ msgstr "Acesso a Estudos"
 
 #: templates/about/diversity.html:118
 msgid "For a community to be diverse, we should find different studies levels."
-msgstr "Para uma comunidade ser diversa, precisamos encontrar graus de "
-"escolaridade diferentes."
+msgstr ""
+"Para uma comunidade ser diversa, precisamos encontrar graus de escolaridade "
+"diferentes."
 
 #: templates/about/diversity.html:120
 msgid ""
@@ -941,7 +1327,8 @@ msgstr ""
 "fosse um programador. Existem tantas maneiras de contribuir em um grupo. "
 "Todas elas são importantes e nos faz melhorar em diferentes formas: "
 "programar, é claro, mas também documentar, ensinar, energizar a comunidade, "
-"criar ambiente seguro, e se preocupar com a saúde e felicidade de seus membros."
+"criar ambiente seguro, e se preocupar com a saúde e felicidade de seus "
+"membros."
 
 #: templates/about/diversity.html:128
 msgid "Other Interests in General"
@@ -950,8 +1337,7 @@ msgstr "Outros Interesses em Geral"
 #: templates/about/diversity.html:130
 msgid ""
 "For a community to be diverse, we should find different other insterests."
-msgstr ""
-"Para uma comunidade ser diversa, devemos procurar outros interesses."
+msgstr "Para uma comunidade ser diversa, devemos procurar outros interesses."
 
 #: templates/about/diversity.html:132
 msgid ""
@@ -961,10 +1347,10 @@ msgid ""
 "could always learn something new. Embrace the otherness."
 msgstr ""
 "Todos os interesses. Uma comunidade diversa não deveria esperar um interesse "
-"em particular, mas aceitar e acolher todos eles. Pessoas são diversas, pessoas "
-"gostam de coisas diferentes. Os interesses alternativos além de tornarem pessoas "
-"melhores mais felizes, permitem que sempre aprendamos algo novo. Abrace a "
-"alternatividade."
+"em particular, mas aceitar e acolher todos eles. Pessoas são diversas, "
+"pessoas gostam de coisas diferentes. Os interesses alternativos além de "
+"tornarem pessoas melhores mais felizes, permitem que sempre aprendamos algo "
+"novo. Abrace a alternatividade."
 
 #: templates/about/diversity.html:134
 msgid "Other Interests in Technology"
@@ -975,8 +1361,8 @@ msgid ""
 "For a community to be diverse, we should find different other tech "
 "insterests."
 msgstr ""
-"Para uma comunidade ser diversa, precisamos encontrar interesses tecnológicos "
-"diferentes."
+"Para uma comunidade ser diversa, precisamos encontrar interesses "
+"tecnológicos diferentes."
 
 #: templates/about/diversity.html:138
 msgid ""
@@ -988,9 +1374,9 @@ msgid ""
 msgstr ""
 "Todos eles. Uma comunidade diversa não discrimina ninguém por causa de suas "
 "escolhas de outras tecnologias. Uma comunidade diversa de Python está mais "
-"focada em ensinar, aprender e aproveitar Python do que fazer discursos contra "
-"regexp (ou qualquer outra linguagem). Abordagens diferentes aumentam nossa "
-"própria visão. Caso contrárion, apenas não seja um babaca."
+"focada em ensinar, aprender e aproveitar Python do que fazer discursos "
+"contra regexp (ou qualquer outra linguagem). Abordagens diferentes aumentam "
+"nossa própria visão. Caso contrárion, apenas não seja um babaca."
 
 #: templates/about/diversity.html:140
 msgid "Hint"
@@ -1004,11 +1390,11 @@ msgid ""
 "reconsider our position. And also, how many times we find ourselves with new "
 "unexpected interests."
 msgstr ""
-"Existem diversas maneiras de saber se fazemos parte de uma comunidade diversa. "
-"Algumas delas baseiam-se em medir a alternatividade óbvia. Porém podemos pensar "
-"também em quantas vezes nos sentimos incomodados com novas visões, que nos "
-"façam reconsiderar nosso posicionamento. Além disso, quantas vezes nos vemos "
-"em novos interesses inesperados."
+"Existem diversas maneiras de saber se fazemos parte de uma comunidade "
+"diversa. Algumas delas baseiam-se em medir a alternatividade óbvia. Porém "
+"podemos pensar também em quantas vezes nos sentimos incomodados com novas "
+"visões, que nos façam reconsiderar nosso posicionamento. Além disso, quantas "
+"vezes nos vemos em novos interesses inesperados."
 
 #: templates/about/diversity.html:144
 msgid "Bonus: pepa.py"
@@ -1085,12 +1471,23 @@ msgid ""
 "If you're not familiar with pull requests system, open an issue and I'll "
 "answer as soon as possible."
 msgstr ""
-"Se você não estiver familiarizado com o sistema de pull requests, abra "
-"uma issue e eu irei respondê-la assim que possível."
+"Se você não estiver familiarizado com o sistema de pull requests, abra uma "
+"issue e eu irei respondê-la assim que possível."
 
 #: templates/about/diversity.html:178
 msgid "Authors"
 msgstr "Autores"
+
+#: templates/about/friends.html:15
+msgid "Friends of SciPyLA 2016"
+msgstr ""
+
+#: templates/about/friends.html:17
+msgid ""
+"The following groups and enterprises made a commit to help SciPyLA by "
+"organizing and advertising the event, sending their members to the "
+"conference and in some case with in-kind donations."
+msgstr ""
 
 #: templates/about/organizers.html:14
 msgid "The SciPyLA 2016 Organization Team"
@@ -1104,65 +1501,65 @@ msgstr "Comitê Executivo"
 msgid "Conference Chair:"
 msgstr "Presidente da Conferência:"
 
-#: templates/about/organizers.html:26
+#: templates/about/organizers.html:27
 msgid "Academic Chair:"
 msgstr "Presidente Acadêmico:"
 
-#: templates/about/organizers.html:33
+#: templates/about/organizers.html:34
 msgid "Scientific Chair:"
 msgstr "Presidente Científico:"
 
-#: templates/about/organizers.html:41
+#: templates/about/organizers.html:42
 msgid "Communications:"
 msgstr "Comunicações:"
 
-#: templates/about/organizers.html:49
 # ToDo: verificar
+#: templates/about/organizers.html:50
 msgid "Birds of Feathers:"
 msgstr "Grupos de discussão informal (BoF):"
 
-#: templates/about/organizers.html:57
+#: templates/about/organizers.html:58
 msgid "Proceedings:"
 msgstr "Atas de trabalhos:"
 
-#: templates/about/organizers.html:65
+#: templates/about/organizers.html:66
 msgid "Financial Aid:"
 msgstr "Ajuda Financeira:"
 
-#: templates/about/organizers.html:74
+#: templates/about/organizers.html:75
 msgid "Tutorials:"
 msgstr "Tutoriais:"
 
-#: templates/about/organizers.html:82
+#: templates/about/organizers.html:83
 msgid "Sprints:"
 msgstr "Sprints:"
 
-#: templates/about/organizers.html:91
 # ToDo: verificar. Talvez tenha o sentido de relatório
+#: templates/about/organizers.html:92
 msgid "Technical:"
 msgstr "Técnico:"
 
-#: templates/about/organizers.html:99
+#: templates/about/organizers.html:100
 msgid "Sponsors:"
 msgstr "Patrocinadores:"
 
-#: templates/about/organizers.html:107
+#: templates/about/organizers.html:108
 msgid "Financial:"
 msgstr "Financeiro:"
 
-#: templates/about/organizers.html:115
+#: templates/about/organizers.html:116
 msgid "Logistics"
 msgstr "Logística"
 
-#: templates/about/organizers.html:123
+#: templates/about/organizers.html:124
 msgid "Program Committee"
 msgstr "Comitê de Programa"
 
-#: templates/about/organizers.html:138
+#: templates/about/organizers.html:140
 msgid "Mini Symposiums Committee"
 msgstr "Mini Comitê de Simpósios"
 
-#: templates/about/organizers.html:149
+#: templates/about/organizers.html:151
 msgid "Diversity Committee"
 msgstr "Comitê da Diversidade"
 
@@ -1184,59 +1581,28 @@ msgstr ""
 msgid "Start by <a href=\"%(login_url)s\">logging in</a>."
 msgstr "Começando em <a href=\"%(login_url)s\">acesse</a>."
 
-#: templates/homepage.html:15
-msgid "Attend"
-msgstr "Comparecer"
-
-#: templates/homepage.html:17
-msgid ""
-"The annual SciPyLA Conference allows participants from academic, commercial, "
-"and governmental organizations to showcase their latest Scientific Python "
-"projects, learn from skilled users and developers, and collaborate on code "
-"development."
-msgstr ""
-"A Conferência anual SciPyLA é para participantes da acadêmia, organizações "
-"comerciais e governamentais mostrarem seus mais recentes projetos "
-"científicos em Python, aprender com os desenvolvedores mais experientes, e "
-"colaborar no desenvolvimento de código."
-
-#: templates/homepage.html:18
-msgid ""
-"We look forward to a very exciting conference and hope to see you at the "
-"2016 conference."
-msgstr ""
-"Estamos ansiosos para uma conferência muito emocionante e espero vê-los na "
-"conferência em 2016."
-
-#: templates/homepage.html:22
-msgid "Be Inspired"
-msgstr "Inspire-se"
-
-#: templates/homepage.html:23
-msgid "Check the review from the previous editions:"
-msgstr "Verifique a revisão das edições anteriores:"
-
-#: templates/homepage.html:53
-msgid "Follow"
-msgstr "Seguir"
-
 #: templates/participate/ambassadors.html:14
 msgid "The SciPyLA 2016 Ambassadors Team"
 msgstr "A Equipe Embaixadora da SciPyLA 2016"
 
 #: templates/participate/ambassadors.html:16
-msgid "Bolivia:"
+msgid "Argentina:"
 msgstr ""
 
 #: templates/participate/ambassadors.html:23
+msgid "Bolivia:"
+msgstr ""
+
+#: templates/participate/ambassadors.html:30
 msgid "Costa Rica:"
 msgstr ""
 
-#: templates/participate/ambassadors.html:29
+#: templates/participate/ambassadors.html:36
 msgid "Venezuela:"
 msgstr ""
 
-#: templates/participate/bofs.html:7 templates/participate/financial_aid.html:7
+#: templates/participate/bofs.html:7
+#: templates/participate/financial_aid.html:7
 #: templates/participate/wssspe.html:7
 msgid "BoFs Call"
 msgstr "Chamada para BoFs "
@@ -1254,8 +1620,9 @@ msgid ""
 "Accepted poster presentations are listed at <a href='https://conference."
 "scipy.org/scipyla2016/posters/'>conference.scipy.org/scipyla2016/posters</a>."
 msgstr ""
-"Apresentações aceitas de pôster estão listadas em <a href='https://conference."
-"scipy.org/scipyla2016/posters/'>conference.scipy.org/scipyla2016/posters</a>."
+"Apresentações aceitas de pôster estão listadas em <a href='https://"
+"conference.scipy.org/scipyla2016/posters/'>conference.scipy.org/scipyla2016/"
+"posters</a>."
 
 #: templates/participate/presentations.html:22
 msgid ""
@@ -1284,47 +1651,46 @@ msgid ""
 "code development."
 msgstr ""
 "SciPyLA 2016, a quarta conferência sobre Computação Científica em Python na "
-"América Latina, será realizada entre 16-20 de maio de 2016, em Florianópolis, "
-"Santa Catarina, Brasil. SciPy é uma comunidade dedicada ao avanço da computação "
-"científica através de software aberto em Python para matemática, ciência, e "
-"engenharia. A conferência anual SciPyLA permite que participantes de organizações "
-"acadêmicas, comerciais e governamentais mostrem seus últimos projetos, aprendam "
-"de usuários experientes e desenvolvedores, e colaborem no desenvolvimento de código."
+"América Latina, será realizada entre 16-20 de maio de 2016, em "
+"Florianópolis, Santa Catarina, Brasil. SciPy é uma comunidade dedicada ao "
+"avanço da computação científica através de software aberto em Python para "
+"matemática, ciência, e engenharia. A conferência anual SciPyLA permite que "
+"participantes de organizações acadêmicas, comerciais e governamentais "
+"mostrem seus últimos projetos, aprendam de usuários experientes e "
+"desenvolvedores, e colaborem no desenvolvimento de código."
 
-#: templates/participate/presentations.html:29
 # ToDo: 2014?
+#: templates/participate/presentations.html:29
+#, fuzzy
 msgid ""
-"<strong>We invite proposals for 20 minutes talks and poster presentations by "
-"April 1, 2014.</strong>"
+"<strong>We invite proposals for 20 minutes talks and poster presentations.</"
+"strong>"
 msgstr ""
 "<strong>Convidamos o envio de propostas de palestras de 20 minutos e "
 "apresentações de pôster até o dia 01 de Abril de 2014</strong>"
 
 #: templates/participate/presentations.html:31
-#: templates/participate/tutorials.html:128
+#: templates/participate/tutorials.html:129
 msgid "Proposal Submission"
 msgstr "Submissão da proposta"
 
 #: templates/participate/presentations.html:33
+#: templates/participate/tutorials.html:131
 msgid ""
-"To submit a proposal <a href='https://conference.scipy.org/scipyla2016/"
-"account/signup/'>sign up</a> or <a href='https://conference.scipy.org/"
-"scipyla2016/account/login/'>log in</a> to your account and proceed to your "
-"<a href='https://conference.scipy.org/scipyla2016/dashboard/'>account "
-"dashboard</a>."
+"To submit a proposal, <a href='/scipyla2016/account/signup/'>sign up</a> or "
+"<a href='/scipyla2016/account/login/'>log in</a> to your account and proceed "
+"to your <a href='/scipyla2016/dashboard/'>account dashboard</a>."
 msgstr ""
-"Para enviar uma proposta, <a href='https://conference.scipy.org/scipyla2016/"
-"account/signup/'>inscreva-se</a> ou <a href='https://conference.scipy.org/"
-"scipyla2016/account/login/'>entre</a> em sua conta e prosiga para o "
-"<a href='https://conference.scipy.org/scipyla2016/dashboard/'>mural da "
-"conta</a>."
+"Para enviar uma proposta, <a href='/scipyla2016/account/signup/'>inscreva-"
+"se</a> ou <a href='/scipyla2016/account/login/'>entre</a> em sua conta e "
+"siga para seu <a href='/scipyla2016/dashboard/'>mural da conta</a>."
 
 #: templates/participate/presentations.html:36
 msgid "Click submit proposal, talk/poster, create new..."
 msgstr "Clique em enviar proposta, palestra/postêr, criar nova..."
 
 #: templates/participate/presentations.html:38
-#: templates/participate/tutorials.html:134
+#: templates/participate/tutorials.html:135
 msgid "For the submission you will need the following information:"
 msgstr "Para a submissão, você precisará da seguinte informação:"
 
@@ -1359,7 +1725,7 @@ msgstr ""
 "figuras, artigos, e evidência de habilidade de falar em público também são "
 "encorajadas."
 
-#: templates/participate/presentations.html:47
+#: templates/participate/presentations.html:46
 msgid ""
 "Each abstract will be peer-reviewed by multiple members of the Program "
 "Committee Board. Abstracts will be accepted for posters or presentations. "
@@ -1369,20 +1735,60 @@ msgid ""
 "conference."
 msgstr ""
 "Cada resumo será revisado por multiplos membros do Comitê de Programa. "
-"Resumos serão aceitos para pôsteres ou apresentações. Artigos opcionais a serem "
-"publicados nas atas da conferência serão pedidos após a submissão de resumos. "
-"Neste ano, a ata da conferência estará disponível antes da conferência para "
-"ajudar participantes a navegarem na conferência."
+"Resumos serão aceitos para pôsteres ou apresentações. Artigos opcionais a "
+"serem publicados nas atas da conferência serão pedidos após a submissão de "
+"resumos. Neste ano, a ata da conferência estará disponível antes da "
+"conferência para ajudar participantes a navegarem na conferência."
+
+#: templates/participate/presentations.html:48
+#: templates/participate/tutorials.html:149
+msgid "Announcement"
+msgstr ""
 
 #: templates/participate/presentations.html:50
-msgid "Accepted presentations will be announced on May 1st."
+#, fuzzy
+msgid "Accepted presentations will be announced on April 22nd."
 msgstr "Apresentações aceitas serão divulgadas no dia 01 de Maio"
 
 #: templates/participate/presentations.html:52
+#: templates/participate/tutorials.html:153
+msgid "Important dates:"
+msgstr "Datas importantes:"
+
+#: templates/participate/presentations.html:55
+#, fuzzy
+msgid "March 1st: Initial date for submission of presentations"
+msgstr "01 de Março: Data inicial para submissão de tutoriais"
+
+#: templates/participate/presentations.html:56
+#, fuzzy
+msgid "April 8th: Deadline for submission of presentations"
+msgstr "08 de Abril: data final para submissão de tutoriais"
+
+#: templates/participate/presentations.html:57
+#, fuzzy
+msgid "April 22nd: Notification of acceptance for presentations"
+msgstr "22 de Abril: Notificação de aceitação de tutoriais"
+
+#: templates/participate/presentations.html:58
+#, fuzzy
+msgid "May 19th-21th: SciPyLA 2016, 3 days of presentations"
+msgstr "19-20 de Maio: SciPyLA 2016, 3 dias de palestras."
+
+#: templates/participate/presentations.html:61
+#, fuzzy
+msgid ""
+"We look forward to very exciting presentations and hope to see you all at "
+"the conference."
+msgstr ""
+"Estamos ansiosos para tutoriais muito emocionantes e esperamos vê-los na "
+"conferência em 2016."
+
+#: templates/participate/presentations.html:63
 msgid "The SciPyLA 2016 Program Chairs"
 msgstr "O Comitê de Programa da SciPyLA 2016"
 
-#: templates/participate/presentations.html:55
+#: templates/participate/presentations.html:66
 msgid "Melissa Weber Mendonça, Federal University of Santa Catarina"
 msgstr "Melissa Weber Mendonça, Universidade Federal de Santa Catarina"
 
@@ -1410,47 +1816,41 @@ msgid ""
 "code development."
 msgstr ""
 "SciPyLA 2016, a quarta conferência sobre Computação Científica em Python na "
-"América Latina, será realizada entre 16-20 de maio de 2016, em Florianópolis, "
-"Santa Catarina, Brasil. SciPy é uma comunidade dedicada ao avanço da computação "
-"científica através de software aberto em Python para matemática, ciência, e "
-"engenharia. A conferência anual SciPyLA permite que participantes de organizações "
-"acadêmicas, comerciais e governamentais mostrem seus últimos projetos, aprendam "
-"de usuários experientes e desenvolvedores, e colaborem no desenvolvimento de código."
+"América Latina, será realizada entre 16-20 de maio de 2016, em "
+"Florianópolis, Santa Catarina, Brasil. SciPy é uma comunidade dedicada ao "
+"avanço da computação científica através de software aberto em Python para "
+"matemática, ciência, e engenharia. A conferência anual SciPyLA permite que "
+"participantes de organizações acadêmicas, comerciais e governamentais "
+"mostrem seus últimos projetos, aprendam de usuários experientes e "
+"desenvolvedores, e colaborem no desenvolvimento de código."
 
 #: templates/participate/tutorials.html:115
+#, fuzzy
 msgid ""
 "The conference will kick off with two days of tutorials. These sessions "
-"provide extremely affordable access to expert training, and consistently "
-"receive fantastic feedback from participants.  "
+"provide access to expert training, and consistently receive fantastic "
+"feedback from participants."
 msgstr ""
 "A conferência começará com dois dias de tutoriais. Essas sessões fornecem "
 "acesso a preços extremamente acessíveis para treinamento de especialistas, e "
 "consistentemente recebem feedbacks fantásticos de participantes."
 
-#: templates/participate/tutorials.html:117
-msgid ""
-"<strong>We are now accepting tutorial proposals from individuals or teams "
-"that would like to teach a tutorial at SciPyLA 2016</strong>"
-msgstr ""
-"<strong>Estamos aceitando propostas de tutoriais de indivíduos ou equipes "
-"que desejam ministrar um tutorial na SciPyLA 2016</strong>"
-
-#: templates/participate/tutorials.html:119
+#: templates/participate/tutorials.html:120
 msgid ""
 "Whether you are a major contributor to a scientific Python library or an "
 "expert-level user, this is a great opportunity to share your knowledge and "
 "offset some of the costs of your SciPyLA 2016 attendance."
 msgstr ""
-"Caso você seja um grande contribuidor de alguma biblioteca científica em Python, "
-"ou um usuário de nível experiente, esta é uma grande oportunidade para "
-"compartilhar seus conhecimentos e compensar alguns dos custos de sua participação "
-"na SciPyLA 2016."
+"Caso você seja um grande contribuidor de alguma biblioteca científica em "
+"Python, ou um usuário de nível experiente, esta é uma grande oportunidade "
+"para compartilhar seus conhecimentos e compensar alguns dos custos de sua "
+"participação na SciPyLA 2016."
 
-#: templates/participate/tutorials.html:121
+#: templates/participate/tutorials.html:122
 msgid "Topics"
 msgstr "Tópicos"
 
-#: templates/participate/tutorials.html:123
+#: templates/participate/tutorials.html:124
 #, python-format
 msgid ""
 "Tutorials should be focused on covering a well-defined topic in a hands-on "
@@ -1458,14 +1858,13 @@ msgid ""
 "designed to allow at least 50%% of the time for hands-on exercises even if "
 "this means the subject matter needs to be limited."
 msgstr ""
-"Tutoriais devem focar em cobrir um tópico bem definido de forma que "
-"os participantes coloquem a mão na massa. Desejamos ver participantes "
+"Tutoriais devem focar em cobrir um tópico bem definido de forma que os "
+"participantes coloquem a mão na massa. Desejamos ver participantes "
 "codificando! Encorajamos submissões projetadas para permitir pelo menos 50%% "
 "do tempo em exercícios práticos, mesmo que isto signifique que o conteúdo "
 "passado seja limitado."
 
-
-#: templates/participate/tutorials.html:126
+#: templates/participate/tutorials.html:127
 msgid ""
 "For examples of content and format, you can refer to past tutorials from "
 "SciPy tutorial sessions (<a href='http://conference.scipy.org/scipy2015/"
@@ -1475,29 +1874,19 @@ msgid ""
 "packages, helping new or advanced python programmers develop better or "
 "faster scientific applications."
 msgstr ""
-"Para exemplos de conteúdo e formato, veja sessões de tutoriais de "
-"edições anteriores do SciPy (<a href='http://conference.scipy.org/scipy2015/"
+"Para exemplos de conteúdo e formato, veja sessões de tutoriais de edições "
+"anteriores do SciPy (<a href='http://conference.scipy.org/scipy2015/"
 "participate/tutorials/' target='_blank'>SciPy2015</a>, <a href='http://"
 "conference.scipy.org/scipy2014/participate/tutorials/' "
 "target='_blank'>SciPy2014</a>). Procuramos técnicas incríveis ou pacotes que "
 "ajudem programadores python novos ou avançados a desenvolverem melhor ou "
 "mais rápido aplicações científicas."
 
-#: templates/participate/tutorials.html:130
-msgid ""
-"To submit a proposal, <a href='/scipyla2016/account/signup/'>sign up</a> or "
-"<a href='/scipyla2016/account/login/'>log in</a> to your account and proceed "
-"to your <a href='/scipyla2016/dashboard/'>account dashboard</a>."
-msgstr ""
-"Para enviar uma proposta, <a href='/scipyla2016/account/signup/'>inscreva-se</a> ou "
-"<a href='/scipyla2016/account/login/'>entre</a> em sua conta e siga "
-"para seu <a href='/scipyla2016/dashboard/'>mural da conta</a>."
-
-#: templates/participate/tutorials.html:132
+#: templates/participate/tutorials.html:133
 msgid "Click submit proposal, tutorials, create new... "
 msgstr "Clique em submeter proposta, tutoriais, criar novo... "
 
-#: templates/participate/tutorials.html:136
+#: templates/participate/tutorials.html:137
 msgid ""
 "A short bio of the presenter or team members, containing a description of "
 "past experiences as a trainer/teacher/speaker, and (ideally) links to videos "
@@ -1507,7 +1896,7 @@ msgstr ""
 "descrição de experiências anteriores como treinador/professor/palestrante, e "
 "(idealmente) links para videos dessas experiências, se disponíveis."
 
-#: templates/participate/tutorials.html:137
+#: templates/participate/tutorials.html:138
 msgid ""
 "Which track the tutorial would fit best in (Introductory, Intermediate, or "
 "Advanced) and, in the case of an Introductory tutorial submission, select "
@@ -1517,25 +1906,24 @@ msgstr ""
 "Avançado). Em caso de tutorial introdutório, selecione um dos 4 tópicos "
 "introdutórios."
 
-#: templates/participate/tutorials.html:138
+#: templates/participate/tutorials.html:139
 msgid ""
 "A description of the tutorial, suitable for posting on the SciPy website for "
 "attendees to view. It should include the target audience, the expected level "
 "of knowledge prior to the class, and the goals of the class."
 msgstr ""
 
-#: templates/participate/tutorials.html:139
+#: templates/participate/tutorials.html:140
 msgid ""
 "A more detailed outline of the tutorial content including the duration of "
 "each part and exercise sessions. Please include a description of how you "
 "plan to make the tutorial hands-on."
 msgstr ""
-"Um esboço mais detalhado do conteúdo do tutorial, incluindo a duração de cada "
-"parte e as sessões de exercício. Por favor, inclua uma descrição de como você "
-"planeja que os participantes coloquem a mão na massa."
+"Um esboço mais detalhado do conteúdo do tutorial, incluindo a duração de "
+"cada parte e as sessões de exercício. Por favor, inclua uma descrição de "
+"como você planeja que os participantes coloquem a mão na massa."
 
-
-#: templates/participate/tutorials.html:140
+#: templates/participate/tutorials.html:141
 msgid ""
 "A list of Python packages that attendees will need to have installed prior "
 "to the class to follow along. Please mention if any packages are not cross "
@@ -1544,14 +1932,14 @@ msgid ""
 "pip, EPD, Anaconda, etc., or that require third party or compiled libraries."
 msgstr ""
 "Uma lista de pacotes Python que os participantes precisarão ter instalado "
-"antes do tutorial para segui-lo. Por favor, cite qualquer pacote que não seja "
-"multi-plataforma. Instruções de instalação ou links para documentação de "
-"instalação devem ser fornecidos para pacotes que não são disponibilizados por "
-"easy_install, pip, EPD, Anaconda, etc., ou que necessite bibliotecas de "
+"antes do tutorial para segui-lo. Por favor, cite qualquer pacote que não "
+"seja multi-plataforma. Instruções de instalação ou links para documentação "
+"de instalação devem ser fornecidos para pacotes que não são disponibilizados "
+"por easy_install, pip, EPD, Anaconda, etc., ou que necessite bibliotecas de "
 "terceiros ou compiladas."
 
-#: templates/participate/tutorials.html:141
 # ToDo: iPython -> IPython
+#: templates/participate/tutorials.html:142
 msgid ""
 "If available, the tutorial notes, slides, exercise files, and iPython "
 "notebooks, even if they are preliminary."
@@ -1559,44 +1947,38 @@ msgstr ""
 "Se disponíveis, notas do tutorial, slides, arquivos de exercício, e IPython "
 "notebooks, mesmo que preliminares."
 
-#: templates/participate/tutorials.html:144
-msgid "Selection"
-msgstr "Seleção"
-
-#: templates/participate/tutorials.html:146
+#: templates/participate/tutorials.html:147
 msgid ""
-"Accepted tutorials will be announced on April 22nd. Final tutorial materials "
-"and instructions for attendees will be due on May 9th. This will include "
-"final version numbers of required software and a test script that can be run "
-"by attendees to ensure that they have sufficient time to prepare their "
-"laptops before the conference."
+"Each tutorial will be peer-reviewed by multiple members of the Program "
+"Committee Board. This year final tutorial materials and instructions for "
+"attendees will be due on May 9th. This will include final version numbers of "
+"required software and a test script that can be run by attendees to ensure "
+"that they have sufficient time to prepare their laptops before the "
+"conference."
 msgstr ""
-
-#: templates/participate/tutorials.html:148
-
-msgid "Important dates:"
-msgstr "Datas importantes:"
 
 #: templates/participate/tutorials.html:151
+#, fuzzy
+msgid "Accepted tutorials will be announced on April 22nd."
+msgstr "Apresentações aceitas serão divulgadas no dia 01 de Maio"
+
+#: templates/participate/tutorials.html:156
 msgid "March 1st: Initial date for submission of tutorials"
-msgstr ""
-"01 de Março: Data inicial para submissão de tutoriais"
+msgstr "01 de Março: Data inicial para submissão de tutoriais"
 
-#: templates/participate/tutorials.html:152
+#: templates/participate/tutorials.html:157
 msgid "April 8th: Deadline for submission of tutorials"
-msgstr ""
-"08 de Abril: data final para submissão de tutoriais"
+msgstr "08 de Abril: data final para submissão de tutoriais"
 
-#: templates/participate/tutorials.html:153
+#: templates/participate/tutorials.html:158
 msgid "April 22nd: Notification of acceptance for tutorials"
-msgstr ""
-"22 de Abril: Notificação de aceitação de tutoriais"
+msgstr "22 de Abril: Notificação de aceitação de tutoriais"
 
-#: templates/participate/tutorials.html:154
+#: templates/participate/tutorials.html:159
 msgid "May 16th-18th: SciPyLA 2016, 2 days of tutorials"
 msgstr "16-18 de Maio: SciPyLA 2016, 2 dias de tutoriais"
 
-#: templates/participate/tutorials.html:157
+#: templates/participate/tutorials.html:162
 msgid ""
 "We look forward to very exciting tutorials and hope to see you all at the "
 "conference."
@@ -1604,40 +1986,16 @@ msgstr ""
 "Estamos ansiosos para tutoriais muito emocionantes e esperamos vê-los na "
 "conferência em 2016."
 
-#: templates/participate/tutorials.html:160
+#: templates/participate/tutorials.html:165
 msgid "The SciPyLA 2016 Tutorial Chairs"
 msgstr "O Comitê de Tutoriais da SciPyLA 2016"
 
-#: templates/participate/tutorials.html:163
+#: templates/participate/tutorials.html:168
 msgid ""
 "<a href='mailto:jeudy.blanco@cinespa.ucr.ac.cr'>Jeudy Blanco</a>, Professor "
 "and researcher at <a href='http://cinespa.ucr.ac.cr/'>CINESPA</a>, "
 "Universidad de Costa Rica"
 msgstr ""
-
-#: templates/privacy_policy.html:13
-msgid "Information We Collect and How It's Used"
-msgstr "Informações que coletamos e como elas serão é usadas"
-
-#: templates/privacy_policy.html:19
-msgid "Credit Card Information"
-msgstr "Informação do cartão de crédito"
-
-#: templates/privacy_policy.html:24
-msgid "Cookies"
-msgstr "Cookies"
-
-#: templates/privacy_policy.html:37
-msgid "Aggregate Information"
-msgstr "Informações Agregadas"
-
-#: templates/privacy_policy.html:43
-msgid "Email addresses"
-msgstr "Endereço de e-mail"
-
-#: templates/privacy_policy.html:51
-msgid "Disclosure of Information Policy"
-msgstr "Política de Divulgação de Informações"
 
 #: templates/proposals/_proposal_fields.html:4
 msgid "Submitted by"
@@ -1769,329 +2127,6 @@ msgstr ""
 "                            notificado e terá a oportunidade de responder.\n"
 "                        "
 
-#: templates/site_base.html:37
-msgid "Log in"
-msgstr "Acessar"
-
-#: templates/site_base.html:40
-msgid "Sign up"
-msgstr "Cadastrar-se"
-
-#: templates/site_base.html:44
-msgid "Dashboard"
-msgstr "Mural"
-
-#: templates/site_base.html:47
-msgid "Settings"
-msgstr "Configurações"
-
-#: templates/site_base.html:51
-msgid "Admin"
-msgstr "Administrador"
-
-#: templates/site_base.html:55
-msgid "Log out"
-msgstr "Sair"
-
-#: templates/site_base.html:64
-msgid "Scientific Computing with Python"
-msgstr "Computação Científica com Python"
-
-#: templates/site_base.html:64
-msgid "Florianópolis, Santa Catarina, Brazil &#8226; May 16-20"
-msgstr "Florianópolis, Santa Catarina, Brazil &#8226; 16-20 de Maio"
-
-#: templates/site_base.html:64
-msgid "Registration will open soon"
-msgstr "Inscrições irão abrir em breve"
-
-#: templates/sponsor_levels.html:13
-msgid "SciPyLA 2016 Sponsorship Levels"
-msgstr "Níveis de Patrocínio SciPyLA 2016"
-
-#: templates/sponsor_levels_alone.html:3
-msgid "General Sponsorship Packages Available:"
-msgstr "Pacotes de Patrocínio disponíveis:"
-
-#: templates/sponsor_levels_alone.html:6
-msgid "Gold"
-msgstr "Ouro"
-
-#: templates/sponsor_levels_alone.html:6
-msgid "(two available)"
-msgstr "(dois disponíveis)"
-
-#: templates/sponsor_levels_alone.html:7
-msgid "US$3,000"
-msgstr "US$3,000"
-
-#: templates/sponsor_levels_alone.html:10
-#: templates/sponsor_levels_alone.html:25
-#: templates/sponsor_levels_alone.html:37
-#: templates/sponsor_levels_alone.html:50
-msgid "Benefits:"
-msgstr "Benefícios:"
-
-#: templates/sponsor_levels_alone.html:12
-msgid "Gold Sponsor link with logo on SciPyLA 2016 website"
-msgstr "Link com logo do patrocinador Ouro no website da SciPyLA 2016 "
-
-#: templates/sponsor_levels_alone.html:13
-msgid "90 cm x 180 cm banner (sponsor provided) in main session auditorium"
-msgstr ""
-"Cartaz de 90 cm x 180 cm (fornecido pelo patrocinador) no auditório "
-"principal da sessão"
-
-#: templates/sponsor_levels_alone.html:14
-msgid ""
-"logo listed as Gold Sponsor on 90 cm x 180 cm Sponsor Banner at main entrance"
-msgstr ""
-"logo listado como patrocinadora Ouro no cartaz dos Patrocinador de 90 cm x "
-"180 cm na entrada principal"
-
-#: templates/sponsor_levels_alone.html:15
-msgid "Promotion of jobs to attendee list"
-msgstr "Promover empregos na lista de participantes"
-
-#: templates/sponsor_levels_alone.html:16
-msgid ""
-"Opportunity to host two pre-event workshop (one on Monday and another on "
-"Tuesday)"
-msgstr ""
-"Oportunidade de sediar duas oficinas no pré-evento (uma na segunda-feira e "
-"outro na terça-feira)"
-
-#: templates/sponsor_levels_alone.html:17
-msgid "1/2 page advertisement in program"
-msgstr "1/2 anúncio de página no programa"
-
-#: templates/sponsor_levels_alone.html:21
-msgid "Silver"
-msgstr "Prata"
-
-#: templates/sponsor_levels_alone.html:21
-msgid "(eight available)"
-msgstr "(oito disponíveis)"
-
-#: templates/sponsor_levels_alone.html:22
-msgid "US$2,000"
-msgstr "US$2,000"
-
-#: templates/sponsor_levels_alone.html:27
-msgid "Silver Sponsor link with logo on SciPyLA 2016 website"
-msgstr "Link com logo do patrocinador Prata no website da SciPyLA 2016 "
-
-#: templates/sponsor_levels_alone.html:28
-msgid ""
-"logo listed as Silver Sponsor on 90 cm x 180 cm Sponsor Banner at main "
-"entrance"
-msgstr ""
-"logo listado como patrocinadora Prata no cartaz dos Patrocinador de 90 cm x "
-"180 cm na entrada principal"
-
-#: templates/sponsor_levels_alone.html:29
-msgid "1/4 page advertisement in program"
-msgstr " 1/4 de página para anúncio no programa"
-
-#: templates/sponsor_levels_alone.html:33
-msgid "Bronze"
-msgstr "Bronze"
-
-#: templates/sponsor_levels_alone.html:34
-msgid "US$1,000"
-msgstr "US$1,000"
-
-#: templates/sponsor_levels_alone.html:39
-msgid "Bronze Sponsor link with logo on SciPyLA 2016 website"
-msgstr "Link com logo do patrocinador Bronze no website da SciPyLA 2016 "
-
-#: templates/sponsor_levels_alone.html:40
-msgid ""
-"Name listed as Bronze Sponsor on 90 cm x 180 cm Sponsor Banner at main "
-"entrance"
-msgstr ""
-"logo listado como patrocinadora Bronze no cartaz dos Patrocinador de 90 cm x "
-"180 cm na entrada principal"
-
-#: templates/sponsor_levels_alone.html:44
-msgid "Friend"
-msgstr "Amigo"
-
-#: templates/sponsor_levels_alone.html:45
-msgid "in-kind resources"
-msgstr "recursos em espécie"
-
-#: templates/sponsor_levels_alone.html:48
-msgid ""
-"This is a special categorie for companies that help SciPyLA by supporting "
-"their employers to attented SciPyLA."
-msgstr ""
-"Esta é uma categoria especial para empresas que ajudam a SciPyLA apoiando "
-"seus funcionários a atender a SciPyLA."
-
-#: templates/sponsor_levels_alone.html:52
-msgid "Friend Sponsor link with logo on SciPyLA 2016 Friend web page"
-msgstr "Link com logo do Amigo Patrocinador no website da SciPyLA 2016"
-
-#: templates/sponsor_levels_alone.html:56
-msgid "Media and Community Sponsors"
-msgstr "Mídia e patrocinadores da cominidade"
-
-#: templates/sponsor_levels_alone.html:57
-msgid "co-promotion"
-msgstr "co-promoção"
-
-#: templates/sponsor_levels_alone.html:60
-msgid "Promotion opportunities:"
-msgstr "Oportunidades de promoção:"
-
-#: templates/sponsor_levels_alone.html:62
-msgid "logo on website"
-msgstr "logo no website"
-
-#: templates/sponsor_levels_alone.html:63
-msgid "email to conference list"
-msgstr "enviar e-mail para a lista da conferência"
-
-#: templates/sponsor_levels_alone.html:64
-msgid "social media promotion"
-msgstr "promoção em mídia social"
-
-#: templates/sponsor_levels_alone.html:65
-msgid "mention in newsletter"
-msgstr "menção no boletim informativo"
-
-#: templates/sponsor_levels_alone.html:66
-msgid "..."
-msgstr "..."
-
-#: templates/sponsor_levels_alone.html:69
-msgid ""
-"Please email <a href='mailto:2016@scipyla.org'>2016@scipyla.org</a> with any "
-"questions or to reserve your Sponsorship Package."
-msgstr ""
-"Favor enviar e-mail para <a href='mailto:2016@scipyla.org'>2016@scipyla.org"
-"</a> com qualquer pergunta ou para reservar o seu pacote de patrocínio."
-
-#: templates/sponsorship.html:13
-msgid "SciPyLA 2016 Sponsorship"
-msgstr "Patrocínio SciPyLA 2016"
-
-#: templates/sponsorship.html:15
-msgid ""
-"As a community, SciPy Latin America advances scientific and analytic "
-"computing through the development and promotion of open source Python "
-"software; Python usage continues to grow significantly in scientific and "
-"analytic computing thanks to the efforts of this community."
-msgstr ""
-"Como uma comunidade, a SciPyLA busca avançar a computação científica e "
-"analítica através do desenvolvimento e promoção de software de código aberto "
-"em Python; O uso de Python em computação científica continua a crescer "
-"significativamente graças aos esforços desta comunidade."
-
-#: templates/sponsorship.html:18
-msgid ""
-"The annual SciPyLA Conference brings together academic and industry users to "
-"present their latest work, learn from skilled users and developers, and "
-"collaborate on advancing the ecosystem."
-msgstr ""
-"A Conferência anual SciPyLA reúne acadêmicos e membros da indústria para "
-"apresentarem seus mais recentes trabalhos, aprender com desenvolvedores mais "
-"experientes e, colaborar no avanço do ecossistema científico em Python."
-
-#: templates/sponsorship.html:20
-msgid "2-days of Tutorials"
-msgstr "2 dias de Tutoriais"
-
-#: templates/sponsorship.html:22
-msgid ""
-"We provide two days of expert-led tutorials at the start of the conference.  "
-"These tutorials are very popular, with an introductory track for attendees "
-"new to Python, and intermediate and advanced tracks for experienced users."
-msgstr ""
-"Nós fornecemos dois dias de tutoriais liderada pelos especializadas no "
-"início da conferência. Estes tutoriais são muito populares com uma trilha "
-"introdutória para participantes novos ao Python, e trilhas intermediárias e "
-"avançadas para usuários experientes."
-
-#: templates/sponsorship.html:24
-msgid "3-days of Talks, Poster Sessions"
-msgstr "3 dias de palestras, Sessões de pôsteres"
-
-#: templates/sponsorship.html:26
-msgid ""
-"Authors share their juried presentations and poster papers covering the "
-"latest developments in the use of Python in science during the three main "
-"days of the conference. Presentations, posters, lightning talks provide a "
-"wide variety of opportunities for attendees to participate and learn."
-msgstr ""
-"Autores compartilham suas apresentações e pôsteres abrangendo os mais "
-"recentes desenvolvimentos no uso de Python na ciência durante os três dias "
-"principais da conferência. Apresentações, cartazes, palestras relâmpago "
-"fornecem uma ampla variedade de oportunidades para os participantes a "
-"participar e aprender."
-
-#: templates/sponsorship.html:28
-msgid "Why Sponsor?"
-msgstr "Por que patrocinar?"
-
-#: templates/sponsorship.html:30
-msgid "Contribute to the growth of the community and code base:"
-msgstr "Contribuir para o crescimento da comunidade e base de código:"
-
-#: templates/sponsorship.html:32
-msgid ""
-"Your sponsorship helps us build a financial foundation for the conference "
-"and the community, providing more opportunities for the community to build "
-"out the Python scientific computing tools and packages."
-msgstr ""
-"Seu patrocínio nos ajuda a construir uma base financeira para a conferência "
-"e para a comunidade, proporcionando mais oportunidades para a comunidade "
-"para construir as ferramentas de computação científica em Python."
-
-#: templates/sponsorship.html:35
-msgid "Build awareness, recruit, and make contacts:"
-msgstr "Conscientizar, recrutar e fazer contatos:"
-
-#: templates/sponsorship.html:37
-#, python-format
-msgid ""
-"SciPyLA brings together some of the best minds in scientific and analytic "
-"computing, 25%% of them students; you’ll be hard-pressed to find this kind "
-"of audience anywhere else."
-msgstr ""
-"SciPyLA reúne algumas das melhores mentes em computação científica e "
-"analítica, 25%% são estudantes; será difícil encontrar este tipo de público "
-"em qualquer outro lugar."
-
-#: templates/sponsorship.html:40
-msgid "Help fund attendance:"
-msgstr "Ajude financiar atendentes:"
-
-#: templates/sponsorship.html:43
-msgid ""
-"SciPyLA offers scholarships for students and researchers who contribute to "
-"the community."
-msgstr ""
-"SciPyLA oferece bolsas para estudantes e pesquisadores que contribuem para a "
-"comunidade."
-
-#: templates/sponsorship.html:45
-msgid "Sponsorships also help us to keep this meeting very affordable."
-msgstr "Patrocínios também nos ajudam a manter a conferência acessível."
-
-#: templates/sponsorship.html:49
-msgid "2015 Sponsor Participation"
-msgstr "Participação Patrocinador 2015"
-
-#: templates/sponsorship.html:51
-msgid ""
-"SciPyLA 2015 was sponsored by Universidade Gastón Dachary, Machinalis, "
-"Python Software Foundation, GitHub, Enthought."
-msgstr ""
-"SciPyLA 2015 foi patrocinada pela Universidade Gastón Dachary, Machinalis, "
-"Python Software Foundation, GitHub, Enthought."
-
 #: templates/sponsorship/list.html:7 templates/sponsorship/list.html.py:14
 msgid "About Our Sponsors"
 msgstr "Sobre os patrocinadores"
@@ -2139,14 +2174,103 @@ msgstr ""
 msgid "Venue Lodging Details"
 msgstr "Detalhes do alojamento/hospedagem"
 
-#: templates/venue/lodging.html:20
+#: templates/venue/lodging.html:16
 msgid ""
 "There are many lodging options near the Federal University of Santa Catarina."
 msgstr ""
 "Há muitas opções de alojamento perto da Universidade Federal de Santa "
 "Catarina."
 
-#: templates/venue/lodging.html:22
+#: templates/venue/lodging.html:19
+msgid "Near the event"
+msgstr "Próximo ao evento"
+
+#: templates/venue/lodging.html:21
+msgid ""
+"For those looking to stay near the event and thus save some money with "
+"transportation, there are some lodging options near Federal university of "
+"Santa Catarina:"
+msgstr ""
+"Para quem procura opções próximas ao evento e assim economizar com "
+"transporte, existem algumas opções de alojamento próximas à Universidade "
+"Federal de Santa Catarina:"
+
+#: templates/venue/lodging.html:24 templates/venue/lodging.html.py:37
+#: templates/venue/lodging.html:75 templates/venue/lodging.html.py:101
+#: templates/venue/lodging.html:109 templates/venue/lodging.html.py:116
+msgid "Stars"
+msgstr "Estrelas"
+
+#: templates/venue/lodging.html:32 templates/venue/lodging.html.py:45
+#: templates/venue/lodging.html:52 templates/venue/lodging.html.py:59
+#: templates/venue/lodging.html:67 templates/venue/lodging.html.py:79
+#: templates/venue/lodging.html:87 templates/venue/lodging.html.py:95
+#: templates/venue/lodging.html:105 templates/venue/lodging.html.py:112
+#: templates/venue/lodging.html:120
+msgid "Address"
+msgstr "Endereço"
+
+#: templates/venue/lodging.html:33 templates/venue/lodging.html.py:46
+#: templates/venue/lodging.html:60 templates/venue/lodging.html.py:68
+#: templates/venue/lodging.html:80 templates/venue/lodging.html.py:88
+#: templates/venue/lodging.html:96 templates/venue/lodging.html.py:106
+#: templates/venue/lodging.html:113 templates/venue/lodging.html.py:121
+#, fuzzy
+msgid "Distance from the event"
+msgstr "Distância do evento"
+
+#: templates/venue/lodging.html:33 templates/venue/lodging.html.py:46
+#: templates/venue/lodging.html:60
+msgid "on foot"
+msgstr "à pé"
+
+#: templates/venue/lodging.html:53 templates/venue/lodging.html.py:68
+#: templates/venue/lodging.html:80 templates/venue/lodging.html.py:88
+#: templates/venue/lodging.html:96 templates/venue/lodging.html.py:106
+#: templates/venue/lodging.html:113 templates/venue/lodging.html.py:121
+msgid "by car"
+msgstr "de carro"
+
+#: templates/venue/lodging.html:53 templates/venue/lodging.html.py:68
+#: templates/venue/lodging.html:80 templates/venue/lodging.html.py:88
+#: templates/venue/lodging.html:96 templates/venue/lodging.html.py:106
+#: templates/venue/lodging.html:113 templates/venue/lodging.html.py:121
+msgid "by bus"
+msgstr "de ônibus"
+
+#: templates/venue/lodging.html:73
+msgid ""
+"Options near Lagoa da Conceição, a place with a nice night life and near the "
+"beaches on the east side of the island."
+msgstr ""
+"Opções próximas à Lagoa da Conceição, que conta com uma vida noturna agitada "
+"e é perto das praias do leste da Ilha."
+
+#: templates/venue/lodging.html:124
+msgid "Other options"
+msgstr "Outras opções"
+
+#: templates/venue/lodging.html:126
+msgid ""
+"These options are far away from the event, but stil within the island and "
+"near the beaches"
+msgstr ""
+"Essas opções ficam mais afastadas do local do evento, mas ainda estão dentro "
+"da Ilha e próximos as praias."
+
+#: templates/venue/lodging.html:129
+msgid "North of the island"
+msgstr "Norte da ilha"
+
+#: templates/venue/lodging.html:129 templates/venue/lodging.html.py:130
+msgid "Search Booking"
+msgstr "Pesquisar no Booking"
+
+#: templates/venue/lodging.html:130
+msgid "South of the island"
+msgstr "Sul da ilha"
+
+#: templates/venue/lodging.html:133
 msgid ""
 "Lodging options with discounts for SciPyLA 2016 attends will be listed here "
 "soon.  Please visit this page later."
@@ -2154,7 +2278,7 @@ msgstr ""
 "As opções de hospedagem com descontos para atendes da SciPyLA 2016  serão "
 "listados aqui em breve. Por favor, visite esta página mais tarde."
 
-#: templates/venue/lodging.html:24
+#: templates/venue/lodging.html:135
 msgid ""
 "For more options you can visit <a href='http://booking.com/'>Booking</a> and "
 "<a href='http://airbnb.com/'>AirBnb</a>."
@@ -2191,6 +2315,29 @@ msgstr ""
 "+municipais&menu=6'>parques</a>, <a href='http://www.pmf.sc.gov.br/entidades/"
 "turismo/index.php?cms=atrativos+turisticos+culturais&menu=6'>museus</a>, e "
 "<a href='http://www.floripacreativecity.com/'>restaurantes</a>."
+
+#~ msgid ""
+#~ "To submit a proposal <a href='https://conference.scipy.org/scipyla2016/"
+#~ "account/signup/'>sign up</a> or <a href='https://conference.scipy.org/"
+#~ "scipyla2016/account/login/'>log in</a> to your account and proceed to "
+#~ "your <a href='https://conference.scipy.org/scipyla2016/"
+#~ "dashboard/'>account dashboard</a>."
+#~ msgstr ""
+#~ "Para enviar uma proposta, <a href='https://conference.scipy.org/"
+#~ "scipyla2016/account/signup/'>inscreva-se</a> ou <a href='https://"
+#~ "conference.scipy.org/scipyla2016/account/login/'>entre</a> em sua conta e "
+#~ "prosiga para o <a href='https://conference.scipy.org/scipyla2016/"
+#~ "dashboard/'>mural da conta</a>."
+
+#~ msgid ""
+#~ "<strong>We are now accepting tutorial proposals from individuals or teams "
+#~ "that would like to teach a tutorial at SciPyLA 2016</strong>"
+#~ msgstr ""
+#~ "<strong>Estamos aceitando propostas de tutoriais de indivíduos ou equipes "
+#~ "que desejam ministrar um tutorial na SciPyLA 2016</strong>"
+
+#~ msgid "Selection"
+#~ msgstr "Seleção"
 
 #, fuzzy
 #~| msgid "To submit a proposal"
