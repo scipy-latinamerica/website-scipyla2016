@@ -2215,7 +2215,6 @@ msgstr "Endereço"
 #: templates/venue/lodging.html:80 templates/venue/lodging.html.py:88
 #: templates/venue/lodging.html:96 templates/venue/lodging.html.py:106
 #: templates/venue/lodging.html:113 templates/venue/lodging.html.py:121
-#, fuzzy
 msgid "Distance from the event"
 msgstr "Distância do evento"
 
