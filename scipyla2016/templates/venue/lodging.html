@@ -10,14 +10,131 @@
 
 {% block body %}
 
-
 <h1>{% trans "Venue Lodging Details" %}</h1>
 
-<!-- FIXME Add photo of hotel
-<img src="../site_media/static/img/attHotel.jpg" alt="AT&amp;T Executive Conference Center Hotel" height="233" width="350" class="right" />
--->
+<h2>{% trans "Near the event" %}</h2>
 
-<p>{% trans "There are many lodging options near the Federal University of Santa Catarina." %}</p>
+<p>{% trans "For those looking to stay near the event and thus save some money with transportation, there are some lodging options near Federal university of Santa Catarina:" %}</p>
+
+​
+<h3>Hotel Slaviero Executive - 4 {% trans "Stars" %}</h3>
+​<img src="{{ STATIC_URL}}img/lodging/slaviero.jpg" width=400 alt="Hotel Slaviero Executive">
+<ul style="padding:1em;">
+	<li>
+		<a href="http://www.slavierohoteis.com.br/hotel-em-florianopolis/slaviero-executive-florianopolis/hotel/" target="_blank">Website</a>
+	</li>
+	<li>
+		<a href="http://www.booking.com/hotel/br/slaviero-executive-florianopolis.html" target="_blank">Booking</a>
+	</li>
+	<li>{% trans "Address" %}: Av. Desembargador Vitor Lima, 380 - Trindade</li>
+	<li>{% trans "Distance from the event" %}: ~800m (~10 min {% trans "on foot" %})</li>
+</ul>
+​
+<h3>Hotel Quinta Da Bica D'Agua - 4 {% trans "Stars" %}</h3>
+​<img src="{{ STATIC_URL}}img/lodging/quinta-da-bica-dagua.jpg" width=400 alt="Hotel Slaviero Executive">
+<ul style="padding:1em;">
+	<li>
+		<a href="http://www.hotelquintadabicadagua.com.br/" target="_blank">Website</a>
+	</li>
+	<li>
+		<a href="http://www.booking.com/hotel/br/quinta-da-bica-d-agua.html" target="_blank">Booking</a>
+	</li>
+	<li>{% trans "Address" %}: Rua Capitao Romualdo de Barros, 641 - Carvoeira</li>
+	<li>{% trans "Distance from the event" %}: ~1100m (~15 min {% trans "on foot" %})</li>
+</ul>
+
+<h3>Pousada Edelweiss</h3>
+​<img src="{{ STATIC_URL}}img/lodging/edelweiss.jpg" width=400 alt="Hotel Slaviero Executive">
+<ul style="padding:1em;">
+	<li><a href="http://www.pousadaedelweiss.com.br/" target="_blank">Website</a></li>
+	<li>{% trans "Address" %}: Rua Luiz Pedro Ferreira 86- Bairro José Mendes</li>
+	<li>Distância: 3 km (10 min {% trans "by car" %}, 20-25 min {% trans "by bus" %})</li>
+</ul>
+
+<h3>Conexão Hostel</h3>
+​<img src="{{ STATIC_URL}}img/lodging/conexao-hostel.jpg" width=400 alt="Hotel Slaviero Executive">
+<ul style="padding:1em;">
+	<li><a href="http://www.booking.com/hotel/br/conexao-hostel.html" target="_blank">Booking</a></li>
+	<li>{% trans "Address" %}: Travessa das Alamandas, 35 - Carvoeira</li>
+	<li>{% trans "Distance from the event" %}: ~1200m (~15 min {% trans "on foot" %})</li>
+</ul>
+
+<h3>Way Up Hostel</h3>
+​<img src="{{ STATIC_URL}}img/lodging/way-up-hostel.jpg" width=400 alt="Hotel Slaviero Executive">
+<ul style="padding:1em;">
+	<li><a href="http://www.wayuphostel.com.br/" target="_blank">Website</a></li>
+	<li><a href="http://www.booking.com/hotel/br/way-up-hostel.html" target="_blank">Booking</a></li>
+	<li>{% trans "Address" %}: Rua Trajano Margarida, 96 - Trindade</li>
+	<li>{% trans "Distance from the event" %}: 2,4 km (10 min {% trans "by car" %}, 15-20 min {% trans "by bus" %})</li>
+</ul>
+
+<h2>Lagoa da Conceição</h2>
+
+<p>{% trans "Options near Lagoa da Conceição, a place with a nice night life and near the beaches on the east side of the island." %}</p>
+
+<h3>Hotel Samuka - 3 {% trans "Stars" %} </h3>
+​<img src="{{ STATIC_URL}}img/lodging/samuka.jpg" width=400 alt="Hotel Slaviero Executive">
+<ul style="padding:1em;">
+	<li><a href="http://www.samukahotel.com.br/v1/" target="_blank">Website</a></li>
+	<li><a href="http://www.booking.com/hotel/br/samuka.html" target="_blank">Booking</a></li>
+	<li>{% trans "Address" %}: Servidão Pedro Manoel Fernandes, 96, Lagoa da Conceição</li>
+	<li>{% trans "Distance from the event" %}: 10,1 km (25-30 min {% trans "by car" %}, 50min a 1h {% trans "by bus" %})</li>
+</ul>
+
+<h3>Vaga Mundo Pousada</h3>
+​<img src="{{ STATIC_URL}}img/lodging/vaga-mundo-pousada.jpg" width=400 alt="Hotel Slaviero Executive">
+<ul style="padding:1em;">
+	<li><a href="http://www.vagamundopousada.com.br/" target="_blank">Website</a></li>
+	<li><a href="http://www.booking.com/hotel/br/vaga-mundo.html" target="_blank">Booking</a></li>
+	<li>{% trans "Address" %}: Av. Afonso Delambert Neto, 878, Lagoa da Conceição</li>
+	<li>{% trans "Distance from the event" %}: 7,9 km (~20 min {% trans "by car" %}, 40-45 min {% trans "by bus" %})</li>
+</ul>
+
+<h3>Hostel da Terra</h3>
+​<img src="{{ STATIC_URL}}img/lodging/hostel-da-terra.jpg" width=400 alt="Hotel Slaviero Executive">
+<ul style="padding:1em;">
+	<li><a href="http://www.hosteldaterra.com/" target="_blank">Website</a></li>
+	<li><a href="http://www.booking.com/hotel/br/hostel-da-terra.html" target="_blank">Booking</a></li>
+	<li>{% trans "Address" %}: Rua Laurindo Januario da Silveira, 1364, Lagoa da Conceição</li>
+	<li>{% trans "Distance from the event" %}: 8,2 km (~20 min {% trans "by car" %}, 40-45 min {% trans "by bus" %})</li>
+</ul>
+
+<h2>Centro</h2>
+
+<h3>Intercity - 4 {% trans "Stars" %} </h3>
+​<img src="{{ STATIC_URL}}img/lodging/intercity.jpg" width=400 alt="Hotel Slaviero Executive">
+<ul style="padding:1em;">
+	<li><a href="http://www.intercityhoteis.com.br/en/hoteis/florianopolis/hotel-intercity-florianopolis/" target="_blank">Website</a></li>
+	<li><a href="http://www.booking.com/hotel/br/intercity-premium-florianopolis.html" target="_blank">Booking</a></li>
+	<li>{% trans "Address" %}: Av. Paulo Fontes, 1210, Centro</li>
+	<li>{% trans "Distance from the event" %}: 9 km (11-12min {% trans "by car" %}, 35-45 min {% trans "by bus" %})</li>
+</ul>
+
+<h3>Florianópolis Palace Hotel - 4 {% trans "Stars" %} </h3>
+​<img src="{{ STATIC_URL}}img/lodging/palace-hotel.jpg" width=400 alt="Hotel Slaviero Executive">
+<ul style="padding:1em;">
+	<li><a href="http://www.booking.com/hotel/br/florianopolis-palace.html" target="_blank">Booking</a></li>
+	<li>{% trans "Address" %}: Rua Artista Bittencourt, 14, Centro</li>
+	<li>{% trans "Distance from the event" %}: 8,6 km (15min {% trans "by car" %}, 40-45 min {% trans "by bus" %})</li>
+</ul>
+
+<h3>Castelmar Hotel - 3 {% trans "Stars" %} </h3>
+​<img src="{{ STATIC_URL}}img/lodging/castelmar.jpg" width=400 alt="Hotel Slaviero Executive">
+<ul style="padding:1em;">
+	<li><a href="http://www.castelmarhotel.com.br/" target="_blank">Website</a></li>
+	<li><a href="http://www.booking.com/hotel/br/bristol-multy-castelmar.html" target="_blank">Booking</a></li>
+	<li>{% trans "Address" %}: Rua Felipe Schmidt, 1260, Centro</li>
+	<li>{% trans "Distance from the event" %}: 8,4 km (12min {% trans "by car" %}, 35-40 min {% trans "by bus" %})</li>
+</ul>
+
+<h2>{% trans "Other options" %}</h2>
+
+<h3>{% trans "These options are far away from the event, but stil within the island and near the beaches" %}</h3>
+
+<ul style="padding:1em;">
+	<li>{% trans "North of the island" %} - <a href="http://www.booking.com/searchresults.html?city=-643337&nflt=di%3D1984%3Bdi%3D1983%3Bdi%3D4556%3B" target="_blank">{% trans "Search Booking" %}</a></li>
+	<li>{% trans "South of the island" %} - <a href="http://www.booking.com/searchresults.html?city=-643337&nflt=di%3D1982%3Bdi%3D7672%3B" target="_blank">{% trans "Search Booking" %}</a></li>
+</ul>
 
 <p>{% trans "Lodging options with discounts for SciPyLA 2016 attends will be listed here soon.  Please visit this page later." %}</p>
 
