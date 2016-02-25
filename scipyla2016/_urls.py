@@ -142,10 +142,11 @@ urlpatterns = patterns(
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-if settings.DEBUG:
-    urlpatterns += patterns(
-        '',
-        url(r'^site_media/media/(?P<path>.*)$',
-            'django.views.static.serve',
-            {'document_root': settings.MEDIA_ROOT}),
-    )
+# TODO Server this files over NGINX or Apache
+# if settings.DEBUG:
+urlpatterns += patterns(
+    '',
+    url(r'^site_media/media/(?P<path>.*)$',
+        'django.views.static.serve',
+        {'document_root': settings.MEDIA_ROOT}),
+)
