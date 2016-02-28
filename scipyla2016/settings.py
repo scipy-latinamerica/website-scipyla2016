@@ -227,7 +227,8 @@ SYMPOSION_PAGE_REGEX = r"(([\w-]{1,})(/[\w-]{1,})*)/"
 
 PROPOSAL_FORMS = {
     "tutorial": "scipyla2016.proposals.forms.TutorialProposalForm",
-    "talk-poster": "scipyla2016.proposals.forms.TalkPosterProposalForm",
+    "talk": "scipyla2016.proposals.forms.TalkPosterProposalForm",
+    "poster": "scipyla2016.proposals.forms.TalkPosterProposalForm",
     "bof": "scipyla2016.proposals.forms.BofProposalForm",
     "sprint": "scipyla2016.proposals.forms.SprintProposalForm",
 }
