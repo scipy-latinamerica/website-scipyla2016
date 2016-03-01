@@ -25,8 +25,8 @@ class TalkPosterProposal(ProposalBase):
 
     TOPIC_TRACKS = [
         (TRACK_GENERAL, "General"),
-        (TRACK_EDUCATION, 'Scientific Computing Education'),
-        (TRACK_GIS, 'Geospatial Data in Science'),
+        # (TRACK_EDUCATION, 'Scientific Computing Education'),
+        # (TRACK_GIS, 'Geospatial Data in Science'),
     ]
     track_lookup = dict(TOPIC_TRACKS)
 
@@ -41,14 +41,22 @@ class TalkPosterProposal(ProposalBase):
     DOMAIN_ENGINEERING = 9
     DOMAIN_SOCIAL_SCIENCES_AND_HUMANITIES = 10
 
+    # new
+    DOMAIN_SCIENTIFIC_COMPUTING_EDUCATION = 11
+    DOMAIN_APPLIED_MATHEMATICS_SCIENTIFIC_COMPUTING = 12
+    DOMAIN_DATA_SCIENCE = 13
+
     DOMAIN_SYMPOSIA = [
-        (DOMAIN_NONE, "None, only submit to tracks"),
+        (DOMAIN_NONE, "None"),
         (DOMAIN_ASTRONOMY, 'Astronomy and Astrophysics'),
         (DOMAIN_BIO_INFORMATICS, 'Bioinformatics'),
         (DOMAIN_GEOPHYSICS, 'Geophysics'),
         (DOMAIN_VISUALIZATION, 'Vision, Visualization, and Imaging'),
         (DOMAIN_ENGINEERING, 'Engineering'),
         (DOMAIN_SOCIAL_SCIENCES_AND_HUMANITIES, 'Computational Social Sciences and Digital Humanities'),
+        (DOMAIN_SCIENTIFIC_COMPUTING_EDUCATION, 'Scientific Computing Education'),
+        (DOMAIN_APPLIED_MATHEMATICS_SCIENTIFIC_COMPUTING, 'Applied Mathematics/Scientific Computing'),
+        (DOMAIN_DATA_SCIENCE, 'Data Science'),
     ]
     domain_lookup = dict(DOMAIN_SYMPOSIA)
 
