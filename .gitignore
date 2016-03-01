@@ -9,3 +9,4 @@ site_media
 /include/*
 /src/*
 /.idea/*
+local_settings.py
