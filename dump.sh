@@ -9,4 +9,3 @@ python manage.py dumpdata --indent=4 sites.site > fixtures/initial_data.json
 python manage.py dumpdata --indent=4 proposals.proposalkind proposals.proposalsection > fixtures/proposal_base.json
 python manage.py dumpdata --indent=4 sponsorship.benefit sponsorship.benefitlevel > fixtures/sponsor_benefits.json
 python manage.py dumpdata --indent=4 sponsorship.sponsorlevel > fixtures/sponsor_levels.json
-python manage.py dumpdata --indent=4 sponsorship.sponsor > fixtures/sponsor.json
