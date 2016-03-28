@@ -1,0 +1,34 @@
+{% extends "site_base.html" %}
+
+{% load i18n %}
+
+{% load boxes_tags %}
+
+{% block head_title %}{% trans "Registration" %}{% endblock %}
+
+{% block body_class %}home{% endblock %}
+
+{% block body %}
+
+<h1>{% trans "SciPyLA 2016 Registration" %}</h1>
+
+<p>
+{% trans "We are using <a href='https://www.eventbrite.com/'>Eventbrite</a> as registration system for the conference. At the end of this page you can request your ticket." %}
+</p>
+
+<h2>{% trans "Which ticket should I get" %}</h2>
+
+<dl>
+    <dt>Palestras (com doação)</dt>
+    <dd>{% trans "With this option you can buy your badge and t-shirt. We are planning some surprises that will require to have the badge." %}</dd>
+    <dt>Palestras (primeiro lote)</dt>
+    <dd>{% trans "This is the early bird ticket. You will have preference to select the tutorials that you want to attend when we open the registration for those." %}</dd>
+    <dt>Palestras (com pedido de auxílio financeiro)</dt>
+    <dd>{% trans "If you need financial aid to attend the conference this is your ticket. We will avaliate your request as soon as possible and get back to you." %}</dd>
+</dl>
+
+<h2>{% trans "Get your ticket" %}</h2>
+
+<div style="width:100%; text-align:left;" ><iframe src="//eventbrite.com/tickets-external?eid=23050125546&ref=etckt" frameborder="0" height="306" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #dddddd; text-decoration: none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Desenvolvido pela Eventbrite</a></div></div>
+
+{% endblock %}
