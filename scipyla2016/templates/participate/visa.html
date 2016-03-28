@@ -1,0 +1,63 @@
+{% extends "site_base.html" %}
+
+{% load i18n %}
+
+{% load boxes_tags %}
+
+{% block head_title %}{% trans "Welcome" %}{% endblock %}
+
+{% block body_class %}home{% endblock %}
+
+{% block body %}
+
+
+<h1>{% trans "Latin America Visa Information" %}</h1>
+<p>
+{% trans "This page presents some information about visa requirements to travel to Brazil." %}
+</p>
+<p>
+{% trans "Please, confirm this information in your country before you travel." %}
+</p>
+<p>
+{% trans "If you have some updated information, let us know." %}
+</p>
+
+<h2>{% trans "Tourism Visa Exemptions" %}</h2>
+<ul>
+  <li>Argentina</li>
+  <li>Bolivia</li>
+  <li>Chile</li>
+  <li>Colombia</li>
+  <li>Costa Rica</li>
+  <li>Ecuador</li>
+  <li>Guatemala</li>
+  <li>Honduras</li>
+  <li>México</li>
+  <li>Panamá</li>
+  <li>Paraguay</li>
+  <li>Perú</li>
+  <li>Uruguay</li>
+  <li>Venezuela</li>
+</ul>
+<br/>
+
+<h2>{% trans "Tourism Visa Information" %}</h2>
+
+<h3>Cuba</h3>
+
+<ul>
+<li><a href="http://havana.itamaraty.gov.br/es-es/visas.xml"
+   target="_blank"
+>visa</a></li>
+<li><a href src="http://havana.itamaraty.gov.br/es-es/tabla_de_precios_para_visas.xml"
+  target="_blank"
+>tabla de precios para visas</a></li>
+</ul>
+<br/>
+
+<h3>El Salvador</h3>
+<h3>Haití</h3>
+<h3>Nicaragua</h3>
+<h3>República Dominicana</h3>
+
+{% endblock %}
