@@ -504,30 +504,6 @@
         }
     }, 
     {
-        "pk": 3026, 
-        "model": "sitetree.treeitem", 
-        "fields": {
-            "parent": 19, 
-            "access_restricted": false, 
-            "access_permissions": [], 
-            "description": "", 
-            "insitetree": true, 
-            "hint": "", 
-            "url": "talks", 
-            "inbreadcrumbs": true, 
-            "title": "Presentations", 
-            "tree": 1, 
-            "access_perm_type": 1, 
-            "alias": null, 
-            "sort_order": 5, 
-            "inmenu": true, 
-            "access_loggedin": false, 
-            "hidden": false, 
-            "urlaspattern": true, 
-            "access_guest": false
-        }
-    }, 
-    {
         "pk": 3023, 
         "model": "sitetree.treeitem", 
         "fields": {
@@ -568,6 +544,54 @@
             "access_perm_type": 1, 
             "alias": null, 
             "sort_order": 3023, 
+            "inmenu": true, 
+            "access_loggedin": false, 
+            "hidden": false, 
+            "urlaspattern": true, 
+            "access_guest": false
+        }
+    }, 
+    {
+        "pk": 3032, 
+        "model": "sitetree.treeitem", 
+        "fields": {
+            "parent": 19, 
+            "access_restricted": false, 
+            "access_permissions": [], 
+            "description": "", 
+            "insitetree": true, 
+            "hint": "", 
+            "url": "registration", 
+            "inbreadcrumbs": true, 
+            "title": "Registration", 
+            "tree": 1, 
+            "access_perm_type": 1, 
+            "alias": null, 
+            "sort_order": 3032, 
+            "inmenu": true, 
+            "access_loggedin": false, 
+            "hidden": false, 
+            "urlaspattern": true, 
+            "access_guest": false
+        }
+    }, 
+    {
+        "pk": 3036, 
+        "model": "sitetree.treeitem", 
+        "fields": {
+            "parent": 19, 
+            "access_restricted": false, 
+            "access_permissions": [], 
+            "description": "", 
+            "insitetree": true, 
+            "hint": "", 
+            "url": "financial_aid", 
+            "inbreadcrumbs": true, 
+            "title": "Financial Aid", 
+            "tree": 1, 
+            "access_perm_type": 1, 
+            "alias": null, 
+            "sort_order": 3036, 
             "inmenu": true, 
             "access_loggedin": false, 
             "hidden": false, 
@@ -947,7 +971,7 @@
             "hint": "", 
             "url": "sponsor_list", 
             "inbreadcrumbs": true, 
-            "title": "Patrocinadores do {{ SITE_NAME }} ", 
+            "title": "Patrocinadores", 
             "tree": 2, 
             "access_perm_type": 1, 
             "alias": null, 
@@ -1032,30 +1056,6 @@
         }
     }, 
     {
-        "pk": 3028, 
-        "model": "sitetree.treeitem", 
-        "fields": {
-            "parent": 3021, 
-            "access_restricted": false, 
-            "access_permissions": [], 
-            "description": "", 
-            "insitetree": true, 
-            "hint": "", 
-            "url": "talks", 
-            "inbreadcrumbs": true, 
-            "title": "Apresenta\u00e7\u00f5es", 
-            "tree": 2, 
-            "access_perm_type": 1, 
-            "alias": null, 
-            "sort_order": 3022, 
-            "inmenu": true, 
-            "access_loggedin": false, 
-            "hidden": false, 
-            "urlaspattern": false, 
-            "access_guest": false
-        }
-    }, 
-    {
         "pk": 3025, 
         "model": "sitetree.treeitem", 
         "fields": {
@@ -1096,6 +1096,54 @@
             "access_perm_type": 1, 
             "alias": null, 
             "sort_order": 3025, 
+            "inmenu": true, 
+            "access_loggedin": false, 
+            "hidden": false, 
+            "urlaspattern": true, 
+            "access_guest": false
+        }
+    }, 
+    {
+        "pk": 3034, 
+        "model": "sitetree.treeitem", 
+        "fields": {
+            "parent": 3021, 
+            "access_restricted": false, 
+            "access_permissions": [], 
+            "description": "", 
+            "insitetree": true, 
+            "hint": "", 
+            "url": "registration", 
+            "inbreadcrumbs": true, 
+            "title": "Inscri\u00e7\u00e3o", 
+            "tree": 2, 
+            "access_perm_type": 1, 
+            "alias": null, 
+            "sort_order": 3034, 
+            "inmenu": true, 
+            "access_loggedin": false, 
+            "hidden": false, 
+            "urlaspattern": true, 
+            "access_guest": false
+        }
+    }, 
+    {
+        "pk": 3035, 
+        "model": "sitetree.treeitem", 
+        "fields": {
+            "parent": 3021, 
+            "access_restricted": false, 
+            "access_permissions": [], 
+            "description": "", 
+            "insitetree": true, 
+            "hint": "", 
+            "url": "financial_aid", 
+            "inbreadcrumbs": true, 
+            "title": "Aux\u00edlio Financeiro", 
+            "tree": 2, 
+            "access_perm_type": 1, 
+            "alias": null, 
+            "sort_order": 3035, 
             "inmenu": true, 
             "access_loggedin": false, 
             "hidden": false, 
@@ -1536,30 +1584,6 @@
         }
     }, 
     {
-        "pk": 3027, 
-        "model": "sitetree.treeitem", 
-        "fields": {
-            "parent": 3019, 
-            "access_restricted": false, 
-            "access_permissions": [], 
-            "description": "", 
-            "insitetree": true, 
-            "hint": "", 
-            "url": "talks", 
-            "inbreadcrumbs": true, 
-            "title": "Apresentaciones", 
-            "tree": 3, 
-            "access_perm_type": 1, 
-            "alias": null, 
-            "sort_order": 3020, 
-            "inmenu": true, 
-            "access_loggedin": false, 
-            "hidden": false, 
-            "urlaspattern": false, 
-            "access_guest": false
-        }
-    }, 
-    {
         "pk": 3024, 
         "model": "sitetree.treeitem", 
         "fields": {
@@ -1604,6 +1628,54 @@
             "access_loggedin": false, 
             "hidden": false, 
             "urlaspattern": true, 
+            "access_guest": false
+        }
+    }, 
+    {
+        "pk": 3033, 
+        "model": "sitetree.treeitem", 
+        "fields": {
+            "parent": 3019, 
+            "access_restricted": false, 
+            "access_permissions": [], 
+            "description": "", 
+            "insitetree": true, 
+            "hint": "", 
+            "url": "registration", 
+            "inbreadcrumbs": true, 
+            "title": "Registro", 
+            "tree": 3, 
+            "access_perm_type": 1, 
+            "alias": null, 
+            "sort_order": 3033, 
+            "inmenu": true, 
+            "access_loggedin": false, 
+            "hidden": false, 
+            "urlaspattern": true, 
+            "access_guest": false
+        }
+    }, 
+    {
+        "pk": 3037, 
+        "model": "sitetree.treeitem", 
+        "fields": {
+            "parent": 3019, 
+            "access_restricted": false, 
+            "access_permissions": [], 
+            "description": "", 
+            "insitetree": true, 
+            "hint": "", 
+            "url": "financial_aid", 
+            "inbreadcrumbs": true, 
+            "title": "Ayuda Financiera", 
+            "tree": 3, 
+            "access_perm_type": 1, 
+            "alias": null, 
+            "sort_order": 3037, 
+            "inmenu": true, 
+            "access_loggedin": false, 
+            "hidden": false, 
+            "urlaspattern": false, 
             "access_guest": false
         }
     }
