@@ -408,6 +408,30 @@
         }
     }, 
     {
+        "pk": 3038, 
+        "model": "sitetree.treeitem", 
+        "fields": {
+            "parent": 2, 
+            "access_restricted": false, 
+            "access_permissions": [], 
+            "description": "", 
+            "insitetree": true, 
+            "hint": "", 
+            "url": "city", 
+            "inbreadcrumbs": true, 
+            "title": "City", 
+            "tree": 1, 
+            "access_perm_type": 1, 
+            "alias": null, 
+            "sort_order": 3038, 
+            "inmenu": true, 
+            "access_loggedin": false, 
+            "hidden": false, 
+            "urlaspattern": true, 
+            "access_guest": false
+        }
+    }, 
+    {
         "pk": 6, 
         "model": "sitetree.treeitem", 
         "fields": {
@@ -960,6 +984,30 @@
         }
     }, 
     {
+        "pk": 3040, 
+        "model": "sitetree.treeitem", 
+        "fields": {
+            "parent": 102, 
+            "access_restricted": false, 
+            "access_permissions": [], 
+            "description": "", 
+            "insitetree": true, 
+            "hint": "", 
+            "url": "city", 
+            "inbreadcrumbs": true, 
+            "title": "Cidade", 
+            "tree": 2, 
+            "access_perm_type": 1, 
+            "alias": null, 
+            "sort_order": 3040, 
+            "inmenu": true, 
+            "access_loggedin": false, 
+            "hidden": false, 
+            "urlaspattern": true, 
+            "access_guest": false
+        }
+    }, 
+    {
         "pk": 1016, 
         "model": "sitetree.treeitem", 
         "fields": {
@@ -1483,6 +1531,30 @@
             "inmenu": false, 
             "access_loggedin": false, 
             "hidden": true, 
+            "urlaspattern": true, 
+            "access_guest": false
+        }
+    }, 
+    {
+        "pk": 3039, 
+        "model": "sitetree.treeitem", 
+        "fields": {
+            "parent": 302, 
+            "access_restricted": false, 
+            "access_permissions": [], 
+            "description": "", 
+            "insitetree": true, 
+            "hint": "", 
+            "url": "city", 
+            "inbreadcrumbs": true, 
+            "title": "Ciudad", 
+            "tree": 3, 
+            "access_perm_type": 1, 
+            "alias": null, 
+            "sort_order": 3039, 
+            "inmenu": true, 
+            "access_loggedin": false, 
+            "hidden": false, 
             "urlaspattern": true, 
             "access_guest": false
         }
