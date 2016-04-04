@@ -778,3 +778,10 @@ img.sideslung {
     position:relative;
 }
 
+.bg-warning {
+    background-color: #fcf8e3;
+}
+
+.bg-warning p {
+    padding: 15px;
+}
