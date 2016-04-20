@@ -1,0 +1,31 @@
+{% extends "site_base.html" %}
+
+{% load i18n %}
+
+{% load boxes_tags %}
+
+{% block head_title %}{% trans "Tutorials Call" %}{% endblock %}
+
+{% block body_class %}home{% endblock %}
+
+{% block body %}
+
+<h1><a href="../">{% trans "SciPyLA 2016 Tutorials" %}</a></h1>
+
+{% box "tutorial-guidelines" %}
+
+<h2>Introduction to MPI on python using mpi4py</h2>
+
+<h3>Instructor</h3>
+<div><p>Fernando Masanori</p></div>
+
+<h3>Description</h3>
+<div><p>Hacking basic modules and classes to obtain the "Answer to the Ultimate Question of Life, the Universe, and Everything". The funny way to learn the importance of Free Software and inheritance and overloading in OOP or advanced topics like metaprogramming in Python.</p></div>
+
+<h3>Abstract</h3>
+<div><p>Interactive tutorial for people, with the basics of programming, in some other language, and who know nothing of Python. Let's hack basic modules and classes to obtain the "Answer to the Ultimate Question of Life, the Universe and Everything." This tutorial assumes that you have a few basics (data input, data output, boolean operators, flow control, functions, repetitions). We will cover in Python 3: 1. The interactive Python mode 2. Variations in the guess the number game 3. Hacking basic modules and classes 4. Scraping Public Data in order to calculate World Cup costs 5. Chuck Norris nerd jokes and World Cup games in six lines of code. 6. Facebook Hackaton Selective Test in one line of code. Important note: I'm not a Python guru, just a passionate teacher!</p></div>
+
+<h3>Speaker Bio</h3>
+<div><p>Fernando is a Professor at FATEC São José dos Campos and loves teaching. He developed projects for Software Express, Cobra Technology, Credicard Mastercard, PwC (PriceWaterhouseCoopers) and ITAÚ Bank Boston. His interests are Python, Business Analytics, NoSQL. He is creator of the first brazilian MOOC to teach programming "Python for Zombies"</p></div>
+
+{% endblock %}
