@@ -1,0 +1,59 @@
+{% extends "site_base.html" %}
+
+{% load i18n %}
+
+{% load boxes_tags %}
+
+{% block head_title %}{% trans "Tutorials Call" %}{% endblock %}
+
+{% block body_class %}home{% endblock %}
+
+{% block body %}
+
+<h1><a href="../">{% trans "SciPyLA 2016 Tutorials" %}</a></h1>
+
+{% box "tutorial-guidelines" %}
+
+<h2>Python for geoscientist</h2>
+
+<h3>Instructor</h3>
+<div><p>Filipe Fernandes</p></div>
+
+<h3>Description</h3>
+<div><p>A tour, with some in depth examples, to the Geosciences Python software stack. The goal is to expose professionals and students to the state of the art Python libraries used for mapping, data exploration, data analyses, and visualization. This tutorial is aimed at intermediate Python users.</p></div>
+
+<h3>Abstract</h3>
+<div>
+    <p>This tutorial won't focus in one tool, nor it is aimed to teach any tool from the ground up. The goal is to expose the attendees to a set of useful tools via applied examples.</p>
+
+    <p>The ideal audience are intermediate users who can, after the tutorial, dig deeper and learn a new tool using the examples as a starting point.</p>
+
+    <p>The tools we plan to cover are:
+        <ul>
+            <li>NumPy: Basic file reading and array manipulation</li>
+            <li>Pandas (GeoPandas, CTD, xarray): How to take advantage of the index for time-series analysis and the labeled columns to store important metadata.</li>
+            <li>Seaborn: Basic stats plotting</li>
+            <li>Statsmodels: Basic model fitting</li>
+            <li>Dask: How to deal with arrays that don't fit in your laptop RAM.</li>
+            <li>Rasterio, fiona, and gdal: GIS cheat-sheet</li>
+            <li>Cartopy, folium: Mapping</li>
+            <li>Iris: The Climate and forecast convention object in Python.</li>
+            <li>Some oceanographic libraries tour: odvc, pyoos, pyugrid, pysgrid, ciso, utide, etc.</li>
+            <li>Basic optimizations techniques: (a) ditch the for loop in NumPy. (b) Bring the for loop back with Cython and Numba.</li>
+            <li>Using Python as a glue language: calling Fortran, R, MatlabTM, and octave from the Jupyter Notebook.</li>
+
+        </ul>
+
+    </p>
+
+</div>
+
+<h3>Speaker Bio</h3>
+<div>
+<p>I grew up (mostly) in Southeast Brazil, but headed South to Universidade Federal do Rio Grande, where I received a Bachelor of Sciences in Oceanography. After college I attend the Universidade de São Paulo. I received a Masters of Science in Physical Oceanography in August 2005. I am currently a Ph.D. candidate in Marine Sciences at School of Marine Science and Technology.</p>
+
+<p><a href="https://github.com/ocefpaf">Detailed bio</a></p>
+
+</div>
+
+{% endblock %}
